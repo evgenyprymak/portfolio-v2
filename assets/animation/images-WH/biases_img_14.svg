@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="56px" height="88px" viewBox="0 0 56 88" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <!-- Generator: Sketch 53.2 (72643) - https://sketchapp.com -->
+    <title>Group 3</title>
+    <desc>Created with Sketch.</desc>
+    <g id="Page-1" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+        <g id="dsfff/1-copy-33" transform="translate(-62.000000, -45.000000)" fill-rule="nonzero">
+            <g id="Group" transform="translate(58.000000, 45.000000)">
+                <g id="Group-3" transform="translate(4.000000, 0.000000)">
+                    <path d="M0,60 L56,60 L56,76 C56,80.418278 52.418278,84 48,84 L8,84 C3.581722,84 5.41083001e-16,80.418278 0,76 L0,60 Z" id="Rectangle" fill="#99D3FD"></path>
+                    <path d="M0,4 L56,4 L56,52 C56,56.418278 52.418278,60 48,60 L8,60 C3.581722,60 5.41083001e-16,56.418278 0,52 L0,4 Z" id="Rectangle-Copy" fill="#CCEAFF" transform="translate(28.000000, 32.000000) scale(1, -1) translate(-28.000000, -32.000000) "></path>
+                    <path d="M8,84 L48,84 L48,86 C48,87.1045695 47.1045695,88 46,88 L10,88 C8.8954305,88 8,87.1045695 8,86 L8,84 Z" id="Rectangle" fill="#CCEAFF"></path>
+                    <path d="M8,0 L48,0 L48,2 C48,3.1045695 47.1045695,4 46,4 L10,4 C8.8954305,4 8,3.1045695 8,2 L8,0 Z" id="Rectangle-Copy-4" fill="#CCEAFF" transform="translate(28.000000, 2.000000) scale(1, -1) translate(-28.000000, -2.000000) "></path>
+                </g>
+            </g>
+        </g>
+    </g>
+</svg>

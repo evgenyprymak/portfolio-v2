@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="24px" height="18px" viewBox="0 0 24 18" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <!-- Generator: Sketch 54.1 (76490) - https://sketchapp.com -->
+    <title>Combined Shape</title>
+    <desc>Created with Sketch.</desc>
+    <g id="Symbols" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+        <g id="Icon/Step-4-Copy-6" transform="translate(-78.000000, -37.000000)" fill="#A0A0A0">
+            <path d="M82.107623,46.3153962 C82.0368284,45.8874407 82,45.4480212 82,45 C82,40.581722 85.581722,37 90,37 C94.418278,37 98,40.581722 98,45 C98,45.4480212 97.9631716,45.8874407 97.892377,46.3153962 L100.328798,46.7214663 C101.293174,46.8821957 102,47.7165759 102,48.6942542 L102,55 L78,55 L78,48.6942542 C78,47.7165759 78.7068261,46.8821957 79.671202,46.7214663 L82.107623,46.3153962 Z M90,49 C92.209139,49 94,47.209139 94,45 C94,42.790861 92.209139,41 90,41 C87.790861,41 86,42.790861 86,45 C86,47.209139 87.790861,49 90,49 Z" id="Combined-Shape"></path>
+        </g>
+    </g>
+</svg>

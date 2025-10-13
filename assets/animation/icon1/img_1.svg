@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="44px" height="32px" viewBox="0 0 44 32" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <!-- Generator: Sketch 54.1 (76490) - https://sketchapp.com -->
+    <title>Combined Shape</title>
+    <desc>Created with Sketch.</desc>
+    <g id="Symbols" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+        <g id="Icon/Step-1-Copy" transform="translate(-79.000000, -85.000000)" fill="#C4C4C4">
+            <g id="Group" transform="translate(71.000000, 53.000000)">
+                <g id="Group-5" transform="translate(8.000000, 32.000000)">
+                    <path d="M0,10 L4,10 L4,32 L0,32 L0,10 Z M8,5 L12,5 L12,32 L8,32 L8,5 Z M16,13 L20,13 L20,32 L16,32 L16,13 Z M24,18 L28,18 L28,32 L24,32 L24,18 Z M32,6 L36,6 L36,32 L32,32 L32,6 Z M40,0 L44,0 L44,32 L40,32 L40,0 Z" id="Combined-Shape"></path>
+                </g>
+            </g>
+        </g>
+    </g>
+</svg>

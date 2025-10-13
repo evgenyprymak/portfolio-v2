@@ -1,0 +1,839 @@
+{
+  "v": "5.5.1",
+  "fr": 60,
+  "ip": 0,
+  "op": 180,
+  "w": 360,
+  "h": 360,
+  "nm": "s770-icon",
+  "ddd": 0,
+  "assets": [
+    {
+      "id": "image_0",
+      "w": 64,
+      "h": 16,
+      "u": "icon11/",
+      "p": "img_0.svg",
+      "e": 0
+    },
+    {
+      "id": "image_1",
+      "w": 64,
+      "h": 16,
+      "u": "icon11/",
+      "p": "img_1.svg",
+      "e": 0
+    },
+    {
+      "id": "image_2",
+      "w": 64,
+      "h": 16,
+      "u": "icon11/",
+      "p": "img_2.svg",
+      "e": 0
+    },
+    {
+      "id": "image_3",
+      "w": 44,
+      "h": 32,
+      "u": "icon11/",
+      "p": "img_3.svg",
+      "e": 0
+    },
+    {
+      "id": "image_4",
+      "w": 208,
+      "h": 8,
+      "u": "icon11/",
+      "p": "img_4.svg",
+      "e": 0
+    },
+    {
+      "id": "image_5",
+      "w": 20,
+      "h": 32,
+      "u": "icon11/",
+      "p": "img_5.svg",
+      "e": 0
+    },
+    {
+      "id": "image_6",
+      "w": 48,
+      "h": 60,
+      "u": "icon11/",
+      "p": "img_6.svg",
+      "e": 0
+    },
+    {
+      "id": "comp_0",
+      "layers": [
+        {
+          "ddd": 0,
+          "ind": 1,
+          "ty": 2,
+          "nm": "s770-pic3.png",
+          "cl": "png",
+          "refId": "image_0",
+          "sr": 1,
+          "ks": {
+            "o": { "a": 0, "k": 100, "ix": 11 },
+            "r": {
+              "a": 1,
+              "k": [
+                {
+                  "i": { "x": [0.833], "y": [0.833] },
+                  "o": { "x": [0.167], "y": [0.167] },
+                  "t": 0,
+                  "s": [7]
+                },
+                { "t": 15, "s": [0] }
+              ],
+              "ix": 10,
+              "x": "var $bm_rt;\nvar damping, elasticity, speedLimit, bounce, tempsClefProx, tempsDebut, tempsDebut, temps, spring, spring;\nvar fx = effect('Transform Spring 2');\ndamping = fx(2).value;\nelasticity = fx(1).value;\nspeedLimit = 0.1;\nbounce = fx(3).value;\nvar result = value;\nif (numKeys > 1 && elasticity != 0 && nearestKey(time).index != 1 && length(velocity) <= speedLimit) {\n    tempsClefProx = nearestKey(time).time;\n    if (tempsClefProx <= time) {\n        tempsDebut = tempsClefProx;\n    } else {\n        tempsDebut = key($bm_sub(nearestKey(time).index, 1)).time;\n    }\n    temps = $bm_sub(time, tempsDebut);\n    spring = $bm_mul(velocityAtTime($bm_sub(tempsDebut, thisComp.frameDuration)), $bm_div($bm_mul($bm_div(0.15, elasticity), Math.sin($bm_mul($bm_mul($bm_mul(elasticity, temps), 2), Math.PI))), Math.exp($bm_mul(temps, damping))));\n    if (speedLimit > 0)\n        spring = $bm_mul(spring, $bm_sub(1, $bm_div(length(velocity), speedLimit)));\n    if (!bounce)\n        result = $bm_sum(valueAtTime(tempsDebut), spring);\n    if (bounce && valueAtTime(tempsDebut - thisComp.frameDuration) > valueAtTime(tempsDebut))\n        result = $bm_sum(valueAtTime(tempsDebut), Math.abs(spring));\n    if (bounce && valueAtTime(tempsDebut - thisComp.frameDuration) < valueAtTime(tempsDebut))\n        result = $bm_sub(valueAtTime(tempsDebut), Math.abs(spring));\n}\n$bm_rt = result;"
+            },
+            "p": {
+              "s": true,
+              "x": { "a": 0, "k": 180, "ix": 3 },
+              "y": {
+                "a": 1,
+                "k": [
+                  {
+                    "i": { "x": [0.833], "y": [0.833] },
+                    "o": { "x": [0.167], "y": [0.167] },
+                    "t": 0,
+                    "s": [250]
+                  },
+                  { "t": 15, "s": [350] }
+                ],
+                "ix": 4,
+                "x": "var $bm_rt;\nvar damping, elasticity, speedLimit, bounce, tempsClefProx, tempsDebut, tempsDebut, temps, spring, spring;\nvar fx = effect('Transform Spring');\ndamping = fx(2).value;\nelasticity = fx(1).value;\nspeedLimit = 0.1;\nbounce = fx(3).value;\nvar result = value;\nif (numKeys > 1 && elasticity != 0 && nearestKey(time).index != 1 && length(velocity) <= speedLimit) {\n    tempsClefProx = nearestKey(time).time;\n    if (tempsClefProx <= time) {\n        tempsDebut = tempsClefProx;\n    } else {\n        tempsDebut = key($bm_sub(nearestKey(time).index, 1)).time;\n    }\n    temps = $bm_sub(time, tempsDebut);\n    spring = $bm_mul(velocityAtTime($bm_sub(tempsDebut, thisComp.frameDuration)), $bm_div($bm_mul($bm_div(0.15, elasticity), Math.sin($bm_mul($bm_mul($bm_mul(elasticity, temps), 2), Math.PI))), Math.exp($bm_mul(temps, damping))));\n    if (speedLimit > 0)\n        spring = $bm_mul(spring, $bm_sub(1, $bm_div(length(velocity), speedLimit)));\n    if (!bounce)\n        result = $bm_sum(valueAtTime(tempsDebut), spring);\n    if (bounce && valueAtTime(tempsDebut - thisComp.frameDuration) > valueAtTime(tempsDebut))\n        result = $bm_sum(valueAtTime(tempsDebut), Math.abs(spring));\n    if (bounce && valueAtTime(tempsDebut - thisComp.frameDuration) < valueAtTime(tempsDebut))\n        result = $bm_sub(valueAtTime(tempsDebut), Math.abs(spring));\n}\n$bm_rt = result;"
+              }
+            },
+            "a": { "a": 0, "k": [32, 16, 0], "ix": 1 },
+            "s": { "a": 0, "k": [100, 100, 100], "ix": 6 }
+          },
+          "ao": 0,
+          "ef": [
+            {
+              "ty": 5,
+              "nm": "Transform Spring",
+              "np": 5,
+              "mn": "Pseudo/DUIK 1d spring",
+              "ix": 1,
+              "en": 1,
+              "ef": [
+                {
+                  "ty": 0,
+                  "nm": "Elasticity",
+                  "mn": "Pseudo/DUIK 1d spring-0001",
+                  "ix": 1,
+                  "v": { "a": 0, "k": 2, "ix": 1 }
+                },
+                {
+                  "ty": 0,
+                  "nm": "Damping",
+                  "mn": "Pseudo/DUIK 1d spring-0002",
+                  "ix": 2,
+                  "v": { "a": 0, "k": 7, "ix": 2 }
+                },
+                {
+                  "ty": 7,
+                  "nm": "Bounce",
+                  "mn": "Pseudo/DUIK 1d spring-0003",
+                  "ix": 3,
+                  "v": { "a": 0, "k": 1, "ix": 3 }
+                }
+              ]
+            },
+            {
+              "ty": 5,
+              "nm": "Transform Spring 2",
+              "np": 5,
+              "mn": "Pseudo/DUIK 1d spring",
+              "ix": 2,
+              "en": 1,
+              "ef": [
+                {
+                  "ty": 0,
+                  "nm": "Elasticity",
+                  "mn": "Pseudo/DUIK 1d spring-0001",
+                  "ix": 1,
+                  "v": { "a": 0, "k": 2.2, "ix": 1 }
+                },
+                {
+                  "ty": 0,
+                  "nm": "Damping",
+                  "mn": "Pseudo/DUIK 1d spring-0002",
+                  "ix": 2,
+                  "v": { "a": 0, "k": 5, "ix": 2 }
+                },
+                {
+                  "ty": 7,
+                  "nm": "Bounce",
+                  "mn": "Pseudo/DUIK 1d spring-0003",
+                  "ix": 3,
+                  "v": { "a": 0, "k": 0, "ix": 3 }
+                }
+              ]
+            }
+          ],
+          "ip": 0,
+          "op": 900,
+          "st": 0,
+          "bm": 0
+        }
+      ]
+    },
+    {
+      "id": "comp_1",
+      "layers": [
+        {
+          "ddd": 0,
+          "ind": 1,
+          "ty": 2,
+          "nm": "s770-pic4.png",
+          "cl": "png",
+          "refId": "image_1",
+          "sr": 1,
+          "ks": {
+            "o": { "a": 0, "k": 100, "ix": 11 },
+            "r": {
+              "a": 1,
+              "k": [
+                {
+                  "i": { "x": [0.833], "y": [0.833] },
+                  "o": { "x": [0.167], "y": [0.167] },
+                  "t": 0,
+                  "s": [7]
+                },
+                { "t": 15, "s": [0] }
+              ],
+              "ix": 10,
+              "x": "var $bm_rt;\nvar damping, elasticity, speedLimit, bounce, tempsClefProx, tempsDebut, tempsDebut, temps, spring, spring;\nvar fx = effect('Transform Spring 2');\ndamping = fx(2).value;\nelasticity = fx(1).value;\nspeedLimit = 0.1;\nbounce = fx(3).value;\nvar result = value;\nif (numKeys > 1 && elasticity != 0 && nearestKey(time).index != 1 && length(velocity) <= speedLimit) {\n    tempsClefProx = nearestKey(time).time;\n    if (tempsClefProx <= time) {\n        tempsDebut = tempsClefProx;\n    } else {\n        tempsDebut = key($bm_sub(nearestKey(time).index, 1)).time;\n    }\n    temps = $bm_sub(time, tempsDebut);\n    spring = $bm_mul(velocityAtTime($bm_sub(tempsDebut, thisComp.frameDuration)), $bm_div($bm_mul($bm_div(0.15, elasticity), Math.sin($bm_mul($bm_mul($bm_mul(elasticity, temps), 2), Math.PI))), Math.exp($bm_mul(temps, damping))));\n    if (speedLimit > 0)\n        spring = $bm_mul(spring, $bm_sub(1, $bm_div(length(velocity), speedLimit)));\n    if (!bounce)\n        result = $bm_sum(valueAtTime(tempsDebut), spring);\n    if (bounce && valueAtTime(tempsDebut - thisComp.frameDuration) > valueAtTime(tempsDebut))\n        result = $bm_sum(valueAtTime(tempsDebut), Math.abs(spring));\n    if (bounce && valueAtTime(tempsDebut - thisComp.frameDuration) < valueAtTime(tempsDebut))\n        result = $bm_sub(valueAtTime(tempsDebut), Math.abs(spring));\n}\n$bm_rt = result;"
+            },
+            "p": {
+              "s": true,
+              "x": { "a": 0, "k": 180, "ix": 3 },
+              "y": {
+                "a": 1,
+                "k": [
+                  {
+                    "i": { "x": [0.833], "y": [0.833] },
+                    "o": { "x": [0.167], "y": [0.167] },
+                    "t": 0,
+                    "s": [250]
+                  },
+                  { "t": 15, "s": [350] }
+                ],
+                "ix": 4,
+                "x": "var $bm_rt;\nvar damping, elasticity, speedLimit, bounce, tempsClefProx, tempsDebut, tempsDebut, temps, spring, spring;\nvar fx = effect('Transform Spring');\ndamping = fx(2).value;\nelasticity = fx(1).value;\nspeedLimit = 0.1;\nbounce = fx(3).value;\nvar result = value;\nif (numKeys > 1 && elasticity != 0 && nearestKey(time).index != 1 && length(velocity) <= speedLimit) {\n    tempsClefProx = nearestKey(time).time;\n    if (tempsClefProx <= time) {\n        tempsDebut = tempsClefProx;\n    } else {\n        tempsDebut = key($bm_sub(nearestKey(time).index, 1)).time;\n    }\n    temps = $bm_sub(time, tempsDebut);\n    spring = $bm_mul(velocityAtTime($bm_sub(tempsDebut, thisComp.frameDuration)), $bm_div($bm_mul($bm_div(0.15, elasticity), Math.sin($bm_mul($bm_mul($bm_mul(elasticity, temps), 2), Math.PI))), Math.exp($bm_mul(temps, damping))));\n    if (speedLimit > 0)\n        spring = $bm_mul(spring, $bm_sub(1, $bm_div(length(velocity), speedLimit)));\n    if (!bounce)\n        result = $bm_sum(valueAtTime(tempsDebut), spring);\n    if (bounce && valueAtTime(tempsDebut - thisComp.frameDuration) > valueAtTime(tempsDebut))\n        result = $bm_sum(valueAtTime(tempsDebut), Math.abs(spring));\n    if (bounce && valueAtTime(tempsDebut - thisComp.frameDuration) < valueAtTime(tempsDebut))\n        result = $bm_sub(valueAtTime(tempsDebut), Math.abs(spring));\n}\n$bm_rt = result;"
+              }
+            },
+            "a": { "a": 0, "k": [32, 16, 0], "ix": 1 },
+            "s": { "a": 0, "k": [100, 100, 100], "ix": 6 }
+          },
+          "ao": 0,
+          "ef": [
+            {
+              "ty": 5,
+              "nm": "Transform Spring",
+              "np": 5,
+              "mn": "Pseudo/DUIK 1d spring",
+              "ix": 1,
+              "en": 1,
+              "ef": [
+                {
+                  "ty": 0,
+                  "nm": "Elasticity",
+                  "mn": "Pseudo/DUIK 1d spring-0001",
+                  "ix": 1,
+                  "v": { "a": 0, "k": 2, "ix": 1 }
+                },
+                {
+                  "ty": 0,
+                  "nm": "Damping",
+                  "mn": "Pseudo/DUIK 1d spring-0002",
+                  "ix": 2,
+                  "v": { "a": 0, "k": 7, "ix": 2 }
+                },
+                {
+                  "ty": 7,
+                  "nm": "Bounce",
+                  "mn": "Pseudo/DUIK 1d spring-0003",
+                  "ix": 3,
+                  "v": { "a": 0, "k": 1, "ix": 3 }
+                }
+              ]
+            },
+            {
+              "ty": 5,
+              "nm": "Transform Spring 2",
+              "np": 5,
+              "mn": "Pseudo/DUIK 1d spring",
+              "ix": 2,
+              "en": 1,
+              "ef": [
+                {
+                  "ty": 0,
+                  "nm": "Elasticity",
+                  "mn": "Pseudo/DUIK 1d spring-0001",
+                  "ix": 1,
+                  "v": { "a": 0, "k": 2.2, "ix": 1 }
+                },
+                {
+                  "ty": 0,
+                  "nm": "Damping",
+                  "mn": "Pseudo/DUIK 1d spring-0002",
+                  "ix": 2,
+                  "v": { "a": 0, "k": 5, "ix": 2 }
+                },
+                {
+                  "ty": 7,
+                  "nm": "Bounce",
+                  "mn": "Pseudo/DUIK 1d spring-0003",
+                  "ix": 3,
+                  "v": { "a": 0, "k": 0, "ix": 3 }
+                }
+              ]
+            }
+          ],
+          "ip": 0,
+          "op": 900,
+          "st": 0,
+          "bm": 0
+        }
+      ]
+    },
+    {
+      "id": "comp_2",
+      "layers": [
+        {
+          "ddd": 0,
+          "ind": 1,
+          "ty": 2,
+          "nm": "s1-coin.png",
+          "cl": "png",
+          "refId": "image_2",
+          "sr": 1,
+          "ks": {
+            "o": { "a": 0, "k": 100, "ix": 11 },
+            "r": {
+              "a": 1,
+              "k": [
+                {
+                  "i": { "x": [0.833], "y": [0.833] },
+                  "o": { "x": [0.167], "y": [0.167] },
+                  "t": 0,
+                  "s": [7]
+                },
+                { "t": 15, "s": [0] }
+              ],
+              "ix": 10,
+              "x": "var $bm_rt;\nvar damping, elasticity, speedLimit, bounce, tempsClefProx, tempsDebut, tempsDebut, temps, spring, spring;\nvar fx = effect('Transform Spring 2');\ndamping = fx(2).value;\nelasticity = fx(1).value;\nspeedLimit = 0.1;\nbounce = fx(3).value;\nvar result = value;\nif (numKeys > 1 && elasticity != 0 && nearestKey(time).index != 1 && length(velocity) <= speedLimit) {\n    tempsClefProx = nearestKey(time).time;\n    if (tempsClefProx <= time) {\n        tempsDebut = tempsClefProx;\n    } else {\n        tempsDebut = key($bm_sub(nearestKey(time).index, 1)).time;\n    }\n    temps = $bm_sub(time, tempsDebut);\n    spring = $bm_mul(velocityAtTime($bm_sub(tempsDebut, thisComp.frameDuration)), $bm_div($bm_mul($bm_div(0.15, elasticity), Math.sin($bm_mul($bm_mul($bm_mul(elasticity, temps), 2), Math.PI))), Math.exp($bm_mul(temps, damping))));\n    if (speedLimit > 0)\n        spring = $bm_mul(spring, $bm_sub(1, $bm_div(length(velocity), speedLimit)));\n    if (!bounce)\n        result = $bm_sum(valueAtTime(tempsDebut), spring);\n    if (bounce && valueAtTime(tempsDebut - thisComp.frameDuration) > valueAtTime(tempsDebut))\n        result = $bm_sum(valueAtTime(tempsDebut), Math.abs(spring));\n    if (bounce && valueAtTime(tempsDebut - thisComp.frameDuration) < valueAtTime(tempsDebut))\n        result = $bm_sub(valueAtTime(tempsDebut), Math.abs(spring));\n}\n$bm_rt = result;"
+            },
+            "p": {
+              "s": true,
+              "x": { "a": 0, "k": 180, "ix": 3 },
+              "y": {
+                "a": 1,
+                "k": [
+                  {
+                    "i": { "x": [0.833], "y": [0.833] },
+                    "o": { "x": [0.167], "y": [0.167] },
+                    "t": 0,
+                    "s": [250]
+                  },
+                  { "t": 15, "s": [350] }
+                ],
+                "ix": 4,
+                "x": "var $bm_rt;\nvar damping, elasticity, speedLimit, bounce, tempsClefProx, tempsDebut, tempsDebut, temps, spring, spring;\nvar fx = effect('Transform Spring');\ndamping = fx(2).value;\nelasticity = fx(1).value;\nspeedLimit = 0.1;\nbounce = fx(3).value;\nvar result = value;\nif (numKeys > 1 && elasticity != 0 && nearestKey(time).index != 1 && length(velocity) <= speedLimit) {\n    tempsClefProx = nearestKey(time).time;\n    if (tempsClefProx <= time) {\n        tempsDebut = tempsClefProx;\n    } else {\n        tempsDebut = key($bm_sub(nearestKey(time).index, 1)).time;\n    }\n    temps = $bm_sub(time, tempsDebut);\n    spring = $bm_mul(velocityAtTime($bm_sub(tempsDebut, thisComp.frameDuration)), $bm_div($bm_mul($bm_div(0.15, elasticity), Math.sin($bm_mul($bm_mul($bm_mul(elasticity, temps), 2), Math.PI))), Math.exp($bm_mul(temps, damping))));\n    if (speedLimit > 0)\n        spring = $bm_mul(spring, $bm_sub(1, $bm_div(length(velocity), speedLimit)));\n    if (!bounce)\n        result = $bm_sum(valueAtTime(tempsDebut), spring);\n    if (bounce && valueAtTime(tempsDebut - thisComp.frameDuration) > valueAtTime(tempsDebut))\n        result = $bm_sum(valueAtTime(tempsDebut), Math.abs(spring));\n    if (bounce && valueAtTime(tempsDebut - thisComp.frameDuration) < valueAtTime(tempsDebut))\n        result = $bm_sub(valueAtTime(tempsDebut), Math.abs(spring));\n}\n$bm_rt = result;"
+              }
+            },
+            "a": { "a": 0, "k": [32, 16, 0], "ix": 1 },
+            "s": { "a": 0, "k": [100, 100, 100], "ix": 6 }
+          },
+          "ao": 0,
+          "ef": [
+            {
+              "ty": 5,
+              "nm": "Transform Spring",
+              "np": 5,
+              "mn": "Pseudo/DUIK 1d spring",
+              "ix": 1,
+              "en": 1,
+              "ef": [
+                {
+                  "ty": 0,
+                  "nm": "Elasticity",
+                  "mn": "Pseudo/DUIK 1d spring-0001",
+                  "ix": 1,
+                  "v": { "a": 0, "k": 2, "ix": 1 }
+                },
+                {
+                  "ty": 0,
+                  "nm": "Damping",
+                  "mn": "Pseudo/DUIK 1d spring-0002",
+                  "ix": 2,
+                  "v": { "a": 0, "k": 7, "ix": 2 }
+                },
+                {
+                  "ty": 7,
+                  "nm": "Bounce",
+                  "mn": "Pseudo/DUIK 1d spring-0003",
+                  "ix": 3,
+                  "v": { "a": 0, "k": 1, "ix": 3 }
+                }
+              ]
+            },
+            {
+              "ty": 5,
+              "nm": "Transform Spring 2",
+              "np": 5,
+              "mn": "Pseudo/DUIK 1d spring",
+              "ix": 2,
+              "en": 1,
+              "ef": [
+                {
+                  "ty": 0,
+                  "nm": "Elasticity",
+                  "mn": "Pseudo/DUIK 1d spring-0001",
+                  "ix": 1,
+                  "v": { "a": 0, "k": 2.2, "ix": 1 }
+                },
+                {
+                  "ty": 0,
+                  "nm": "Damping",
+                  "mn": "Pseudo/DUIK 1d spring-0002",
+                  "ix": 2,
+                  "v": { "a": 0, "k": 5, "ix": 2 }
+                },
+                {
+                  "ty": 7,
+                  "nm": "Bounce",
+                  "mn": "Pseudo/DUIK 1d spring-0003",
+                  "ix": 3,
+                  "v": { "a": 0, "k": 0, "ix": 3 }
+                }
+              ]
+            }
+          ],
+          "ip": 0,
+          "op": 900,
+          "st": 0,
+          "bm": 0
+        }
+      ]
+    }
+  ],
+  "layers": [
+    {
+      "ddd": 0,
+      "ind": 1,
+      "ty": 0,
+      "nm": "s1-coin-drop-grey",
+      "refId": "comp_0",
+      "sr": 1,
+      "ks": {
+        "o": { "a": 0, "k": 100, "ix": 11 },
+        "r": { "a": 0, "k": 0, "ix": 10 },
+        "p": { "a": 0, "k": [233, -8, 0], "ix": 2 },
+        "a": { "a": 0, "k": [180, 180, 0], "ix": 1 },
+        "s": { "a": 0, "k": [100, 100, 100], "ix": 6 }
+      },
+      "ao": 0,
+      "w": 360,
+      "h": 360,
+      "ip": 42,
+      "op": 942,
+      "st": 42,
+      "bm": 0
+    },
+    {
+      "ddd": 0,
+      "ind": 2,
+      "ty": 0,
+      "nm": "s1-coin-drop-grey",
+      "refId": "comp_0",
+      "sr": 1,
+      "ks": {
+        "o": { "a": 0, "k": 100, "ix": 11 },
+        "r": { "a": 0, "k": 0, "ix": 10 },
+        "p": { "a": 0, "k": [225, 8, 0], "ix": 2 },
+        "a": { "a": 0, "k": [180, 180, 0], "ix": 1 },
+        "s": { "a": 0, "k": [100, 100, 100], "ix": 6 }
+      },
+      "ao": 0,
+      "w": 360,
+      "h": 360,
+      "ip": 35.333984375,
+      "op": 935.333984375,
+      "st": 35.333984375,
+      "bm": 0
+    },
+    {
+      "ddd": 0,
+      "ind": 3,
+      "ty": 0,
+      "nm": "s1-coin-drop-grey",
+      "refId": "comp_0",
+      "sr": 1,
+      "ks": {
+        "o": { "a": 0, "k": 100, "ix": 11 },
+        "r": { "a": 0, "k": 0, "ix": 10 },
+        "p": { "a": 0, "k": [228, 24, 0], "ix": 2 },
+        "a": { "a": 0, "k": [180, 180, 0], "ix": 1 },
+        "s": { "a": 0, "k": [100, 100, 100], "ix": 6 }
+      },
+      "ao": 0,
+      "w": 360,
+      "h": 360,
+      "ip": 28.666015625,
+      "op": 928.666015625,
+      "st": 28.666015625,
+      "bm": 0
+    },
+    {
+      "ddd": 0,
+      "ind": 4,
+      "ty": 0,
+      "nm": "s1-coin-drop-grey",
+      "refId": "comp_0",
+      "sr": 1,
+      "ks": {
+        "o": { "a": 0, "k": 100, "ix": 11 },
+        "r": { "a": 0, "k": 0, "ix": 10 },
+        "p": { "a": 0, "k": [226, 40, 0], "ix": 2 },
+        "a": { "a": 0, "k": [180, 180, 0], "ix": 1 },
+        "s": { "a": 0, "k": [100, 100, 100], "ix": 6 }
+      },
+      "ao": 0,
+      "w": 360,
+      "h": 360,
+      "ip": 22,
+      "op": 922,
+      "st": 22,
+      "bm": 0
+    },
+    {
+      "ddd": 0,
+      "ind": 5,
+      "ty": 0,
+      "nm": "s1-coin-drop-grey-dark",
+      "refId": "comp_1",
+      "sr": 1,
+      "ks": {
+        "o": { "a": 0, "k": 100, "ix": 11 },
+        "r": { "a": 0, "k": 0, "ix": 10 },
+        "p": { "a": 0, "k": [243, 8, 0], "ix": 2 },
+        "a": { "a": 0, "k": [180, 180, 0], "ix": 1 },
+        "s": { "a": 0, "k": [100, 100, 100], "ix": 6 }
+      },
+      "ao": 0,
+      "w": 360,
+      "h": 360,
+      "ip": 61,
+      "op": 961,
+      "st": 61,
+      "bm": 0
+    },
+    {
+      "ddd": 0,
+      "ind": 6,
+      "ty": 0,
+      "nm": "s1-coin-drop-grey-dark",
+      "refId": "comp_1",
+      "sr": 1,
+      "ks": {
+        "o": { "a": 0, "k": 100, "ix": 11 },
+        "r": { "a": 0, "k": 0, "ix": 10 },
+        "p": { "a": 0, "k": [241, 24, 0], "ix": 2 },
+        "a": { "a": 0, "k": [180, 180, 0], "ix": 1 },
+        "s": { "a": 0, "k": [100, 100, 100], "ix": 6 }
+      },
+      "ao": 0,
+      "w": 360,
+      "h": 360,
+      "ip": 51,
+      "op": 951,
+      "st": 51,
+      "bm": 0
+    },
+    {
+      "ddd": 0,
+      "ind": 7,
+      "ty": 0,
+      "nm": "s1-coin-drop-grey-dark",
+      "refId": "comp_1",
+      "sr": 1,
+      "ks": {
+        "o": { "a": 0, "k": 100, "ix": 11 },
+        "r": { "a": 0, "k": 0, "ix": 10 },
+        "p": { "a": 0, "k": [247, 40, 0], "ix": 2 },
+        "a": { "a": 0, "k": [180, 180, 0], "ix": 1 },
+        "s": { "a": 0, "k": [100, 100, 100], "ix": 6 }
+      },
+      "ao": 0,
+      "w": 360,
+      "h": 360,
+      "ip": 41,
+      "op": 941,
+      "st": 41,
+      "bm": 0
+    },
+    {
+      "ddd": 0,
+      "ind": 8,
+      "ty": 0,
+      "nm": "s1-coin-drop-1",
+      "refId": "comp_2",
+      "sr": 1,
+      "ks": {
+        "o": { "a": 0, "k": 100, "ix": 11 },
+        "r": { "a": 0, "k": 0, "ix": 10 },
+        "p": { "a": 0, "k": [113, 40, 0], "ix": 2 },
+        "a": { "a": 0, "k": [180, 180, 0], "ix": 1 },
+        "s": { "a": 0, "k": [100, 100, 100], "ix": 6 }
+      },
+      "ao": 0,
+      "w": 360,
+      "h": 360,
+      "ip": 41,
+      "op": 941,
+      "st": 41,
+      "bm": 0
+    },
+    {
+      "ddd": 0,
+      "ind": 9,
+      "ty": 2,
+      "nm": "s770-pic1.png",
+      "cl": "png",
+      "refId": "image_3",
+      "sr": 1,
+      "ks": {
+        "o": { "a": 0, "k": 100, "ix": 11 },
+        "r": { "a": 0, "k": 0, "ix": 10 },
+        "p": { "a": 0, "k": [180, 232, 0], "ix": 2 },
+        "a": { "a": 0, "k": [22, 16, 0], "ix": 1 },
+        "s": {
+          "a": 1,
+          "k": [
+            {
+              "i": { "x": [0, 0.395, 0.667], "y": [1, 1, 1] },
+              "o": { "x": [0.167, 0.167, 0.167], "y": [0, 0, 0] },
+              "t": 0,
+              "s": [0, 100, 100]
+            },
+            { "t": 31, "s": [100, 100, 100] }
+          ],
+          "ix": 6
+        }
+      },
+      "ao": 0,
+      "ip": 0,
+      "op": 900,
+      "st": 0,
+      "bm": 0
+    },
+    {
+      "ddd": 0,
+      "ind": 10,
+      "ty": 2,
+      "nm": "s770-pic2.png",
+      "cl": "png",
+      "refId": "image_4",
+      "sr": 1,
+      "ks": {
+        "o": { "a": 0, "k": 100, "ix": 11 },
+        "r": { "a": 0, "k": 0, "ix": 10 },
+        "p": { "a": 0, "k": [180, 214, 0], "ix": 2 },
+        "a": { "a": 0, "k": [104, 4, 0], "ix": 1 },
+        "s": {
+          "a": 1,
+          "k": [
+            {
+              "i": { "x": [0, 0.395, 0.667], "y": [1, 1, 1] },
+              "o": { "x": [0.167, 0.167, 0.167], "y": [0, 0, 0] },
+              "t": 15,
+              "s": [0, 100, 100]
+            },
+            { "t": 46, "s": [100, 100, 100] }
+          ],
+          "ix": 6
+        }
+      },
+      "ao": 0,
+      "ip": 15,
+      "op": 915,
+      "st": 15,
+      "bm": 0
+    },
+    {
+      "ddd": 0,
+      "ind": 11,
+      "ty": 2,
+      "nm": "s770-pic6.png",
+      "cl": "png",
+      "refId": "image_5",
+      "sr": 1,
+      "ks": {
+        "o": { "a": 0, "k": 100, "ix": 11 },
+        "r": { "a": 0, "k": 0, "ix": 10 },
+        "p": {
+          "s": true,
+          "x": { "a": 0, "k": 116, "ix": 3 },
+          "y": {
+            "a": 1,
+            "k": [
+              {
+                "i": { "x": [0.833], "y": [0.833] },
+                "o": { "x": [0.167], "y": [0.167] },
+                "t": 41,
+                "s": [88]
+              },
+              { "t": 61, "s": [138] }
+            ],
+            "ix": 4,
+            "x": "var $bm_rt;\nvar damping, elasticity, speedLimit, bounce, tempsClefProx, tempsDebut, tempsDebut, temps, spring, spring;\nvar fx = effect('Transform Spring');\ndamping = fx(2).value;\nelasticity = fx(1).value;\nspeedLimit = 0.1;\nbounce = fx(3).value;\nvar result = value;\nif (numKeys > 1 && elasticity != 0 && nearestKey(time).index != 1 && length(velocity) <= speedLimit) {\n    tempsClefProx = nearestKey(time).time;\n    if (tempsClefProx <= time) {\n        tempsDebut = tempsClefProx;\n    } else {\n        tempsDebut = key($bm_sub(nearestKey(time).index, 1)).time;\n    }\n    temps = $bm_sub(time, tempsDebut);\n    spring = $bm_mul(velocityAtTime($bm_sub(tempsDebut, thisComp.frameDuration)), $bm_div($bm_mul($bm_div(0.15, elasticity), Math.sin($bm_mul($bm_mul($bm_mul(elasticity, temps), 2), Math.PI))), Math.exp($bm_mul(temps, damping))));\n    if (speedLimit > 0)\n        spring = $bm_mul(spring, $bm_sub(1, $bm_div(length(velocity), speedLimit)));\n    if (!bounce)\n        result = $bm_sum(valueAtTime(tempsDebut), spring);\n    if (bounce && valueAtTime(tempsDebut - thisComp.frameDuration) > valueAtTime(tempsDebut))\n        result = $bm_sum(valueAtTime(tempsDebut), Math.abs(spring));\n    if (bounce && valueAtTime(tempsDebut - thisComp.frameDuration) < valueAtTime(tempsDebut))\n        result = $bm_sub(valueAtTime(tempsDebut), Math.abs(spring));\n}\n$bm_rt = result;"
+          }
+        },
+        "a": { "a": 0, "k": [10, 16, 0], "ix": 1 },
+        "s": {
+          "a": 1,
+          "k": [
+            {
+              "i": { "x": [0, 0.395, 0.667], "y": [1, 1, 1] },
+              "o": { "x": [0.167, 0.167, 0.167], "y": [0, 0, 0] },
+              "t": 41,
+              "s": [0, 100, 100]
+            },
+            { "t": 61, "s": [100, 100, 100] }
+          ],
+          "ix": 6
+        }
+      },
+      "ao": 0,
+      "ef": [
+        {
+          "ty": 5,
+          "nm": "Transform Spring",
+          "np": 5,
+          "mn": "Pseudo/DUIK 1d spring",
+          "ix": 1,
+          "en": 1,
+          "ef": [
+            {
+              "ty": 0,
+              "nm": "Elasticity",
+              "mn": "Pseudo/DUIK 1d spring-0001",
+              "ix": 1,
+              "v": { "a": 0, "k": 1, "ix": 1 }
+            },
+            {
+              "ty": 0,
+              "nm": "Damping",
+              "mn": "Pseudo/DUIK 1d spring-0002",
+              "ix": 2,
+              "v": { "a": 0, "k": 2, "ix": 2 }
+            },
+            {
+              "ty": 7,
+              "nm": "Bounce",
+              "mn": "Pseudo/DUIK 1d spring-0003",
+              "ix": 3,
+              "v": { "a": 0, "k": 0, "ix": 3 }
+            }
+          ]
+        }
+      ],
+      "ip": 41,
+      "op": 941,
+      "st": 41,
+      "bm": 0
+    },
+    {
+      "ddd": 0,
+      "ind": 12,
+      "ty": 2,
+      "nm": "s770-pic5.png",
+      "cl": "png",
+      "refId": "image_6",
+      "sr": 1,
+      "ks": {
+        "o": { "a": 0, "k": 100, "ix": 11 },
+        "r": { "a": 0, "k": 0, "ix": 10 },
+        "p": {
+          "s": true,
+          "x": { "a": 0, "k": 116, "ix": 3 },
+          "y": {
+            "a": 1,
+            "k": [
+              {
+                "i": { "x": [0.833], "y": [0.833] },
+                "o": { "x": [0.167], "y": [0.167] },
+                "t": 39,
+                "s": [90]
+              },
+              { "t": 59, "s": [140] }
+            ],
+            "ix": 4,
+            "x": "var $bm_rt;\nvar damping, elasticity, speedLimit, bounce, tempsClefProx, tempsDebut, tempsDebut, temps, spring, spring;\nvar fx = effect('Transform Spring');\ndamping = fx(2).value;\nelasticity = fx(1).value;\nspeedLimit = 0.1;\nbounce = fx(3).value;\nvar result = value;\nif (numKeys > 1 && elasticity != 0 && nearestKey(time).index != 1 && length(velocity) <= speedLimit) {\n    tempsClefProx = nearestKey(time).time;\n    if (tempsClefProx <= time) {\n        tempsDebut = tempsClefProx;\n    } else {\n        tempsDebut = key($bm_sub(nearestKey(time).index, 1)).time;\n    }\n    temps = $bm_sub(time, tempsDebut);\n    spring = $bm_mul(velocityAtTime($bm_sub(tempsDebut, thisComp.frameDuration)), $bm_div($bm_mul($bm_div(0.15, elasticity), Math.sin($bm_mul($bm_mul($bm_mul(elasticity, temps), 2), Math.PI))), Math.exp($bm_mul(temps, damping))));\n    if (speedLimit > 0)\n        spring = $bm_mul(spring, $bm_sub(1, $bm_div(length(velocity), speedLimit)));\n    if (!bounce)\n        result = $bm_sum(valueAtTime(tempsDebut), spring);\n    if (bounce && valueAtTime(tempsDebut - thisComp.frameDuration) > valueAtTime(tempsDebut))\n        result = $bm_sum(valueAtTime(tempsDebut), Math.abs(spring));\n    if (bounce && valueAtTime(tempsDebut - thisComp.frameDuration) < valueAtTime(tempsDebut))\n        result = $bm_sub(valueAtTime(tempsDebut), Math.abs(spring));\n}\n$bm_rt = result;"
+          }
+        },
+        "a": { "a": 0, "k": [24, 30, 0], "ix": 1 },
+        "s": {
+          "a": 1,
+          "k": [
+            {
+              "i": { "x": [0, 0.395, 0.667], "y": [1, 1, 1] },
+              "o": { "x": [0.167, 0.167, 0.167], "y": [0, 0, 0] },
+              "t": 39,
+              "s": [0, 100, 100]
+            },
+            { "t": 59, "s": [100, 100, 100] }
+          ],
+          "ix": 6
+        }
+      },
+      "ao": 0,
+      "ef": [
+        {
+          "ty": 5,
+          "nm": "Transform Spring",
+          "np": 5,
+          "mn": "Pseudo/DUIK 1d spring",
+          "ix": 1,
+          "en": 1,
+          "ef": [
+            {
+              "ty": 0,
+              "nm": "Elasticity",
+              "mn": "Pseudo/DUIK 1d spring-0001",
+              "ix": 1,
+              "v": { "a": 0, "k": 1, "ix": 1 }
+            },
+            {
+              "ty": 0,
+              "nm": "Damping",
+              "mn": "Pseudo/DUIK 1d spring-0002",
+              "ix": 2,
+              "v": { "a": 0, "k": 2, "ix": 2 }
+            },
+            {
+              "ty": 7,
+              "nm": "Bounce",
+              "mn": "Pseudo/DUIK 1d spring-0003",
+              "ix": 3,
+              "v": { "a": 0, "k": 0, "ix": 3 }
+            }
+          ]
+        }
+      ],
+      "ip": 39,
+      "op": 939,
+      "st": 39,
+      "bm": 0
+    }
+  ],
+  "markers": []
+}

@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="41px" height="39px" viewBox="0 0 41 39" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <!-- Generator: Sketch 54.1 (76490) - https://sketchapp.com -->
+    <title>Rectangle</title>
+    <desc>Created with Sketch.</desc>
+    <defs>
+        <path d="M21.661729,2.5700756 C20.1639344,2.5700756 20.5,2.47364996 19.1970779,2.47364996 C9.35508457,-1.92500006 0,4.23598223 0,14.9494852 C0,26.1399874 8.71348628,43.138595 20.4968854,38.0075205 C32.9073483,43.3140076 41,26.1410132 41,14.9494852 C41,4.14365982 32.5907019,-2.19170925 21.661729,2.5700756 Z" id="path-1"></path>
+    </defs>
+    <g id="Symbols" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+        <g id="Icon/Step-5-Copy" transform="translate(-70.000000, -68.000000)">
+            <g id="Group-3" transform="translate(37.000000, 47.903310)">
+                <g id="Group" transform="translate(5.001953, 5.096690)">
+                    <g id="Rectangle" transform="translate(27.998047, 15.000000)">
+                        <mask id="mask-2" fill="white">
+                            <use xlink:href="#path-1"></use>
+                        </mask>
+                        <use id="Mask-2" fill="#D4A077" xlink:href="#path-1"></use>
+                        <rect fill="#BB8961" mask="url(#mask-2)" x="-3" y="-13" width="24" height="67"></rect>
+                    </g>
+                </g>
+            </g>
+        </g>
+    </g>
+</svg>

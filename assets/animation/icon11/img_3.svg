@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="22px" height="16px" viewBox="0 0 22 16" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <!-- Generator: Sketch 54.1 (76490) - https://sketchapp.com -->
+    <title>Rectangle 2</title>
+    <desc>Created with Sketch.</desc>
+    <defs>
+        <path d="M22,16 L2,16 C1.44771525,16 1,15.5522847 1,15 C1,14.7836298 1.07017787,14.5730962 1.2,14.4 L11.2,1.06666667 C11.5313708,0.624838867 12.1581722,0.535295817 12.6,0.866666667 C12.6758057,0.923520916 12.7431458,0.990861001 12.8,1.06666667 L22.8,14.4 C23.1313708,14.8418278 23.0418278,15.4686292 22.6,15.8 C22.4269038,15.9298221 22.2163702,16 22,16 Z" id="path-1"></path>
+    </defs>
+    <g id="Symbols" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+        <g id="Icon/777-question-1-Copy-6" transform="translate(-79.000000, -110.000000)">
+            <g id="Rectangle-2" transform="translate(78.000000, 110.000000)">
+                <mask id="mask-2" fill="white">
+                    <use xlink:href="#path-1"></use>
+                </mask>
+                <use id="Rectangle" fill="#C4C4C4" xlink:href="#path-1"></use>
+                <path d="M0,0 L19,0 C21.7057076,4.50845104 22.7057076,7.00845104 22,7.5 C20.4432518,8.58432717 12.8203463,4.1796537 10.6977539,6.30224609 C7.13183594,9.86816406 3.56591797,13.434082 0,17 L0,0 Z" id="Rectangle" fill="#A0A0A0" mask="url(#mask-2)"></path>
+            </g>
+        </g>
+    </g>
+</svg>

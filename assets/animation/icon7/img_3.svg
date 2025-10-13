@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="40px" height="119px" viewBox="0 0 40 119" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <!-- Generator: Sketch 54.1 (76490) - https://sketchapp.com -->
+    <title>Group</title>
+    <desc>Created with Sketch.</desc>
+    <g id="Symbols" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+        <g id="Group" fill-rule="nonzero">
+            <polygon id="Rectangle" fill="#C4C4C4" points="15 0 25 0 27 8 15 8"></polygon>
+            <path d="M6,8 L8,0 L16,0 L18,8 L24,8 L24,119 L0,119 L0,8 L6,8 Z" id="Combined-Shape" fill="#D8D8D8"></path>
+            <rect id="Rectangle-Copy" fill="#C4C4C4" x="24" y="8" width="16" height="111"></rect>
+            <path d="M6,12 L10,12 L10,36 L6,36 L6,12 Z M14,12 L18,12 L18,36 L14,36 L14,12 Z M6,40 L10,40 L10,119 L6,119 L6,40 Z M14,40 L18,40 L18,119 L14,119 L14,40 Z" id="Combined-Shape" fill="#C4C4C4"></path>
+            <path d="M6,12 L10,12 L10,16 L6,12 Z M14,12 L18,12 L18,16 L14,12 Z" id="Combined-Shape" fill="#A0A0A0"></path>
+            <path d="M6,41 L10,41 L10,45 L6,41 Z M14,41 L18,41 L18,45 L14,41 Z" id="Combined-Shape-Copy-2" fill="#A0A0A0"></path>
+            <rect id="Rectangle" fill="#A0A0A0" x="30" y="12" width="4" height="107"></rect>
+        </g>
+    </g>
+</svg>

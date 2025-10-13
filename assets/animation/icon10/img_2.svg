@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="92px" height="76px" viewBox="0 0 92 76" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <!-- Generator: Sketch 54.1 (76490) - https://sketchapp.com -->
+    <title>Group 3</title>
+    <desc>Created with Sketch.</desc>
+    <defs>
+        <polygon id="path-1" points="103 7.22171052e-15 95.1000054 8.20648923e-17 79.1327497 24 62.698473 24 39.7861663 56.6264936 0 56.6264936 0 77 103 77"></polygon>
+    </defs>
+    <g id="Symbols" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+        <g id="Icon/Step-10" transform="translate(-49.000000, -59.000000)">
+            <g id="Group-2" transform="translate(39.000000, 33.000000)">
+                <g id="Group-3" transform="translate(5.000000, 26.000000)">
+                    <mask id="mask-2" fill="white">
+                        <use xlink:href="#path-1"></use>
+                    </mask>
+                    <use id="Path-5" fill="#C4C4C4" xlink:href="#path-1"></use>
+                    <path d="M62,23 L93,63 L75,82 L46,41 L62,23 Z M77,22 L73,15 L97,-6 C100.333333,7.6875 102,18.0208333 102,25 C102,32.2708333 100.333333,39.9375 97,48 L77,22 Z" id="Combined-Shape" fill="#D8D8D8" mask="url(#mask-2)"></path>
+                </g>
+            </g>
+        </g>
+    </g>
+</svg>

@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="80px" height="72px" viewBox="0 0 80 72" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <!-- Generator: Sketch 53.2 (72643) - https://sketchapp.com -->
+    <title>Group 5</title>
+    <desc>Created with Sketch.</desc>
+    <g id="Page-1" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+        <g id="dsfff/1-copy-28" transform="translate(-50.000000, -54.000000)" fill-rule="nonzero">
+            <g id="Group-5" transform="translate(50.000000, 54.000000)">
+                <path d="M72,36 L8,36 C6.49970897,36 5.06086596,35.4040117 4,34.3431458 L1.65685425,32 C0.59598829,30.939134 -7.10542736e-15,29.500291 -7.10542736e-15,28 L2.48689958e-13,8.52651283e-14 L80,8.52651283e-14 L80,28 C80,29.500291 79.4040117,30.939134 78.3431458,32 L76,34.3431458 C74.939134,35.4040117 73.500291,36 72,36 Z" id="Combined-Shape-Copy" fill="#003669" transform="translate(40.000000, 18.000000) scale(1, -1) translate(-40.000000, -18.000000) "></path>
+                <path d="M72,72 L8,72 C6.49970897,72 5.06086596,71.4040117 4,70.3431458 L1.65685425,68 C0.59598829,66.939134 -7.10542736e-15,65.500291 -7.10542736e-15,64 L2.48689958e-13,36 L80,36 L80,64 C80,65.500291 79.4040117,66.939134 78.3431458,68 L76,70.3431458 C74.939134,71.4040117 73.500291,72 72,72 Z" id="Combined-Shape" fill="#004D94"></path>
+            </g>
+        </g>
+    </g>
+</svg>

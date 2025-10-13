@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="72px" height="46px" viewBox="0 0 72 46" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <!-- Generator: Sketch 54.1 (76490) - https://sketchapp.com -->
+    <title>Group</title>
+    <desc>Created with Sketch.</desc>
+    <defs>
+        <path d="M0,0 L60,0 L52.6193432,38.7484484 C52.2599886,40.63506 50.6105198,42 48.6899889,42 L11.3100111,42 C9.38948018,42 7.74001143,40.63506 7.38065684,38.7484484 L0,0 Z" id="path-1"></path>
+    </defs>
+    <g id="Symbols" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+        <g id="Icon/Step-3-Copy" transform="translate(-54.000000, -94.000000)">
+            <g id="Group-2" transform="translate(54.000000, 32.495689)">
+                <g id="Group" transform="translate(0.000000, 61.504311)">
+                    <g id="Rectangle" transform="translate(6.000000, 4.000000)">
+                        <mask id="mask-2" fill="white">
+                            <use xlink:href="#path-1"></use>
+                        </mask>
+                        <use id="Mask" fill="#E6E6E6" fill-rule="nonzero" xlink:href="#path-1"></use>
+                        <path d="M6,0 L66,0 L58.6193432,38.7484484 C58.2599886,40.63506 56.6105198,42 54.6899889,42 L17.3100111,42 C15.3894802,42 13.7400114,40.63506 13.3806568,38.7484484 L6,0 Z" id="Mask-Copy" fill="#A0A0A0" mask="url(#mask-2)"></path>
+                        <path d="M-8,4 L32.5835122,4 C41.2844401,4 48.3379358,11.0534957 48.3379358,19.7544236 C48.3379358,20.8450632 48.2246832,21.9327549 48,23 L44.6686228,38.8240419 C44.2789439,40.6750166 42.6459725,42 40.7544236,42 L3.24557639,42 C1.35402754,42 -0.278943864,40.6750166 -0.668622753,38.8240419 L-8,4 Z" id="Mask-Copy-2" fill="#C4C4C4" mask="url(#mask-2)"></path>
+                        <rect fill="#A0A0A0" mask="url(#mask-2)" x="-6" y="0" width="72" height="4"></rect>
+                    </g>
+                    <rect id="Rectangle" fill="#C4C4C4" x="0" y="0" width="72" height="4"></rect>
+                </g>
+            </g>
+        </g>
+    </g>
+</svg>

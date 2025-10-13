@@ -1,0 +1,700 @@
+{
+  "v": "5.5.1",
+  "fr": 60,
+  "ip": 0,
+  "op": 240,
+  "w": 360,
+  "h": 360,
+  "nm": "s773-icon",
+  "ddd": 0,
+  "assets": [
+    {
+      "id": "image_0",
+      "w": 20,
+      "h": 32,
+      "u": "icon13/",
+      "p": "img_0.svg",
+      "e": 0
+    },
+    {
+      "id": "image_1",
+      "w": 48,
+      "h": 60,
+      "u": "icon13/",
+      "p": "img_1.svg",
+      "e": 0
+    },
+    {
+      "id": "image_2",
+      "w": 192,
+      "h": 160,
+      "u": "icon13/",
+      "p": "img_2.svg",
+      "e": 0
+    },
+    {
+      "id": "image_3",
+      "w": 16,
+      "h": 16,
+      "u": "icon13/",
+      "p": "img_3.svg",
+      "e": 0
+    },
+    {
+      "id": "image_4",
+      "w": 192,
+      "h": 4,
+      "u": "icon13/",
+      "p": "img_4.svg",
+      "e": 0
+    },
+    {
+      "id": "image_5",
+      "w": 192,
+      "h": 4,
+      "u": "icon13/",
+      "p": "img_5.svg",
+      "e": 0
+    },
+    {
+      "id": "image_6",
+      "w": 324,
+      "h": 160,
+      "u": "icon13/",
+      "p": "img_6.svg",
+      "e": 0
+    },
+    {
+      "id": "comp_0",
+      "layers": [
+        {
+          "ddd": 0,
+          "ind": 1,
+          "ty": 2,
+          "nm": "s773-pic6.png",
+          "cl": "png",
+          "refId": "image_3",
+          "sr": 1,
+          "ks": {
+            "o": { "a": 0, "k": 100, "ix": 11 },
+            "r": { "a": 0, "k": 0, "ix": 10 },
+            "p": {
+              "s": true,
+              "x": {
+                "a": 1,
+                "k": [
+                  {
+                    "i": { "x": [0.833], "y": [0.833] },
+                    "o": { "x": [0.167], "y": [0.167] },
+                    "t": 121,
+                    "s": [223]
+                  },
+                  { "t": 150, "s": [182] }
+                ],
+                "ix": 3
+              },
+              "y": { "a": 0, "k": 180, "ix": 4 }
+            },
+            "a": { "a": 0, "k": [8, 8, 0], "ix": 1 },
+            "s": {
+              "a": 1,
+              "k": [
+                {
+                  "i": { "x": [0.166, 0.166, 0.667], "y": [1, 1, 1] },
+                  "o": { "x": [0.801, 0.801, 0.333], "y": [0, 0, 0] },
+                  "t": 114,
+                  "s": [0, 0, 100]
+                },
+                { "t": 127, "s": [100, 100, 100] }
+              ],
+              "ix": 6
+            }
+          },
+          "ao": 0,
+          "ip": 114,
+          "op": 896,
+          "st": -4,
+          "bm": 0
+        },
+        {
+          "ddd": 0,
+          "ind": 2,
+          "ty": 2,
+          "nm": "s773-pic5.png",
+          "cl": "png",
+          "refId": "image_4",
+          "sr": 1,
+          "ks": {
+            "o": { "a": 0, "k": 100, "ix": 11 },
+            "r": { "a": 0, "k": 0, "ix": 10 },
+            "p": {
+              "s": true,
+              "x": {
+                "a": 1,
+                "k": [
+                  {
+                    "i": { "x": [0.833], "y": [0.833] },
+                    "o": { "x": [0.167], "y": [0.167] },
+                    "t": 120,
+                    "s": [221]
+                  },
+                  { "t": 150, "s": [181] }
+                ],
+                "ix": 3
+              },
+              "y": { "a": 0, "k": 180, "ix": 4 }
+            },
+            "a": { "a": 0, "k": [192, 2, 0], "ix": 1 },
+            "s": {
+              "a": 1,
+              "k": [
+                {
+                  "i": {
+                    "x": [0.833, 0.833, 0.833],
+                    "y": [0.833, 0.833, 0.833]
+                  },
+                  "o": {
+                    "x": [0.167, 0.167, 0.167],
+                    "y": [0.167, 0.167, 0.167]
+                  },
+                  "t": 120,
+                  "s": [0, 100, 100]
+                },
+                { "t": 135, "s": [100, 100, 100] }
+              ],
+              "ix": 6
+            }
+          },
+          "ao": 0,
+          "ip": 120,
+          "op": 1020,
+          "st": 120,
+          "bm": 0
+        },
+        {
+          "ddd": 0,
+          "ind": 3,
+          "ty": 2,
+          "nm": "s773-pic4.png",
+          "cl": "png",
+          "refId": "image_5",
+          "sr": 1,
+          "ks": {
+            "o": {
+              "a": 1,
+              "k": [
+                {
+                  "i": { "x": [0.833], "y": [0.833] },
+                  "o": { "x": [0.167], "y": [0.167] },
+                  "t": 60,
+                  "s": [0]
+                },
+                { "t": 75, "s": [100] }
+              ],
+              "ix": 11
+            },
+            "r": { "a": 0, "k": 0, "ix": 10 },
+            "p": { "a": 0, "k": [180, 180, 0], "ix": 2 },
+            "a": { "a": 0, "k": [96, 2, 0], "ix": 1 },
+            "s": { "a": 0, "k": [100, 100, 100], "ix": 6 }
+          },
+          "ao": 0,
+          "ip": 60,
+          "op": 960,
+          "st": 60,
+          "bm": 0
+        },
+        {
+          "ddd": 0,
+          "ind": 4,
+          "ty": 4,
+          "nm": "Shape Layer 1",
+          "sr": 1,
+          "ks": {
+            "o": { "a": 0, "k": 100, "ix": 11 },
+            "r": { "a": 0, "k": 0, "ix": 10 },
+            "p": {
+              "s": true,
+              "x": {
+                "a": 1,
+                "k": [
+                  {
+                    "i": { "x": [0.833], "y": [0.833] },
+                    "o": { "x": [0.167], "y": [0.167] },
+                    "t": 60,
+                    "s": [179]
+                  },
+                  { "t": 150, "s": [49] }
+                ],
+                "ix": 3
+              },
+              "y": { "a": 0, "k": 170, "ix": 4 }
+            },
+            "a": { "a": 0, "k": [-132, -10, 0], "ix": 1 },
+            "s": { "a": 0, "k": [100, 100, 100], "ix": 6 }
+          },
+          "ao": 0,
+          "shapes": [
+            {
+              "ty": "gr",
+              "it": [
+                {
+                  "ind": 0,
+                  "ty": "sh",
+                  "ix": 1,
+                  "ks": {
+                    "a": 0,
+                    "k": {
+                      "i": [
+                        [0, 0],
+                        [0, 0],
+                        [0, 0],
+                        [0, 0],
+                        [0, 0],
+                        [0, 0],
+                        [0, 0],
+                        [0, 0],
+                        [0, 0],
+                        [0, 0],
+                        [0, 0],
+                        [0, 0],
+                        [0, 0],
+                        [0, 0],
+                        [0, 0],
+                        [0, 0],
+                        [0, 0],
+                        [0, 0],
+                        [0, 0],
+                        [0, 0],
+                        [0, 0],
+                        [0, 0],
+                        [0, 0]
+                      ],
+                      "o": [
+                        [0, 0],
+                        [0, 0],
+                        [0, 0],
+                        [0, 0],
+                        [0, 0],
+                        [0, 0],
+                        [0, 0],
+                        [0, 0],
+                        [0, 0],
+                        [0, 0],
+                        [0, 0],
+                        [0, 0],
+                        [0, 0],
+                        [0, 0],
+                        [0, 0],
+                        [0, 0],
+                        [0, 0],
+                        [0, 0],
+                        [0, 0],
+                        [0, 0],
+                        [0, 0],
+                        [0, 0],
+                        [0, 0]
+                      ],
+                      "v": [
+                        [-359, -12],
+                        [-335, -35],
+                        [-304, -53],
+                        [-275, -28],
+                        [-262, -36],
+                        [-242, -22],
+                        [-235, -40],
+                        [-219, -59],
+                        [-197, -55],
+                        [-172, -40],
+                        [-153, -45],
+                        [-131, -20],
+                        [-109, -28],
+                        [-97, -54],
+                        [-78, -62],
+                        [-56, -26],
+                        [-36, -26],
+                        [-12, -18],
+                        [10, 10],
+                        [33, 42],
+                        [55, -13],
+                        [77, -25],
+                        [95, -47]
+                      ],
+                      "c": false
+                    },
+                    "ix": 2
+                  },
+                  "nm": "Path 1",
+                  "mn": "ADBE Vector Shape - Group",
+                  "hd": false
+                },
+                {
+                  "ty": "st",
+                  "c": {
+                    "a": 0,
+                    "k": [0.627451002598, 0.627451002598, 0.627451002598, 1],
+                    "ix": 3
+                  },
+                  "o": { "a": 0, "k": 100, "ix": 4 },
+                  "w": { "a": 0, "k": 4, "ix": 5 },
+                  "lc": 2,
+                  "lj": 1,
+                  "ml": 4,
+                  "bm": 0,
+                  "d": [
+                    {
+                      "n": "d",
+                      "nm": "dash",
+                      "v": { "a": 0, "k": 650, "ix": 1 }
+                    },
+                    {
+                      "n": "o",
+                      "nm": "offset",
+                      "v": {
+                        "a": 1,
+                        "k": [
+                          {
+                            "i": { "x": [0.833], "y": [0.833] },
+                            "o": { "x": [0.167], "y": [0.167] },
+                            "t": 60,
+                            "s": [476]
+                          },
+                          { "t": 157, "s": [0] }
+                        ],
+                        "ix": 7
+                      }
+                    }
+                  ],
+                  "nm": "Stroke 1",
+                  "mn": "ADBE Vector Graphic - Stroke",
+                  "hd": false
+                },
+                {
+                  "ty": "tr",
+                  "p": { "a": 0, "k": [0, 0], "ix": 2 },
+                  "a": { "a": 0, "k": [0, 0], "ix": 1 },
+                  "s": { "a": 0, "k": [100, 100], "ix": 3 },
+                  "r": { "a": 0, "k": 0, "ix": 6 },
+                  "o": { "a": 0, "k": 100, "ix": 7 },
+                  "sk": { "a": 0, "k": 0, "ix": 4 },
+                  "sa": { "a": 0, "k": 0, "ix": 5 },
+                  "nm": "Transform"
+                }
+              ],
+              "nm": "Shape 1",
+              "np": 3,
+              "cix": 2,
+              "bm": 0,
+              "ix": 1,
+              "mn": "ADBE Vector Group",
+              "hd": false
+            }
+          ],
+          "ip": 0,
+          "op": 900,
+          "st": 0,
+          "bm": 0
+        },
+        {
+          "ddd": 0,
+          "ind": 5,
+          "ty": 2,
+          "nm": "div V",
+          "refId": "image_6",
+          "sr": 1,
+          "ks": {
+            "o": { "a": 0, "k": 100, "ix": 11 },
+            "r": { "a": 0, "k": 0, "ix": 10 },
+            "p": {
+              "s": true,
+              "x": {
+                "a": 1,
+                "k": [
+                  {
+                    "i": { "x": [0.833], "y": [0.833] },
+                    "o": { "x": [0.167], "y": [0.167] },
+                    "t": 60,
+                    "s": [140]
+                  },
+                  { "t": 150, "s": [53] }
+                ],
+                "ix": 3
+              },
+              "y": { "a": 0, "k": 260, "ix": 4 }
+            },
+            "a": { "a": 0, "k": [162, 160, 0], "ix": 1 },
+            "s": {
+              "a": 1,
+              "k": [
+                {
+                  "i": { "x": [0, 0.395, 0.667], "y": [1, 1, 1] },
+                  "o": { "x": [0.947, 0.759, 0.333], "y": [0, 0, 0] },
+                  "t": 30,
+                  "s": [100, 0, 100]
+                },
+                { "t": 60, "s": [100, 100, 100] }
+              ],
+              "ix": 6
+            }
+          },
+          "ao": 0,
+          "ip": 0,
+          "op": 900,
+          "st": 0,
+          "bm": 0
+        }
+      ]
+    }
+  ],
+  "layers": [
+    {
+      "ddd": 0,
+      "ind": 1,
+      "ty": 2,
+      "nm": "s770-pic6.png",
+      "cl": "png",
+      "refId": "image_0",
+      "sr": 1,
+      "ks": {
+        "o": { "a": 0, "k": 100, "ix": 11 },
+        "r": { "a": 0, "k": 0, "ix": 10 },
+        "p": {
+          "s": true,
+          "x": { "a": 0, "k": 181, "ix": 3 },
+          "y": {
+            "a": 1,
+            "k": [
+              {
+                "i": { "x": [0.833], "y": [0.833] },
+                "o": { "x": [0.167], "y": [0.167] },
+                "t": 141,
+                "s": [68]
+              },
+              { "t": 161, "s": [118] }
+            ],
+            "ix": 4,
+            "x": "var $bm_rt;\nvar damping, elasticity, speedLimit, bounce, tempsClefProx, tempsDebut, tempsDebut, temps, spring, spring;\nvar fx = effect('Transform Spring');\ndamping = fx(2).value;\nelasticity = fx(1).value;\nspeedLimit = 0.1;\nbounce = fx(3).value;\nvar result = value;\nif (numKeys > 1 && elasticity != 0 && nearestKey(time).index != 1 && length(velocity) <= speedLimit) {\n    tempsClefProx = nearestKey(time).time;\n    if (tempsClefProx <= time) {\n        tempsDebut = tempsClefProx;\n    } else {\n        tempsDebut = key($bm_sub(nearestKey(time).index, 1)).time;\n    }\n    temps = $bm_sub(time, tempsDebut);\n    spring = $bm_mul(velocityAtTime($bm_sub(tempsDebut, thisComp.frameDuration)), $bm_div($bm_mul($bm_div(0.15, elasticity), Math.sin($bm_mul($bm_mul($bm_mul(elasticity, temps), 2), Math.PI))), Math.exp($bm_mul(temps, damping))));\n    if (speedLimit > 0)\n        spring = $bm_mul(spring, $bm_sub(1, $bm_div(length(velocity), speedLimit)));\n    if (!bounce)\n        result = $bm_sum(valueAtTime(tempsDebut), spring);\n    if (bounce && valueAtTime(tempsDebut - thisComp.frameDuration) > valueAtTime(tempsDebut))\n        result = $bm_sum(valueAtTime(tempsDebut), Math.abs(spring));\n    if (bounce && valueAtTime(tempsDebut - thisComp.frameDuration) < valueAtTime(tempsDebut))\n        result = $bm_sub(valueAtTime(tempsDebut), Math.abs(spring));\n}\n$bm_rt = result;"
+          }
+        },
+        "a": { "a": 0, "k": [10, 16, 0], "ix": 1 },
+        "s": {
+          "a": 1,
+          "k": [
+            {
+              "i": { "x": [0, 0.395, 0.667], "y": [1, 1, 1] },
+              "o": { "x": [0.167, 0.167, 0.167], "y": [0, 0, 0] },
+              "t": 141,
+              "s": [0, 100, 100]
+            },
+            { "t": 161, "s": [100, 100, 100] }
+          ],
+          "ix": 6
+        }
+      },
+      "ao": 0,
+      "ef": [
+        {
+          "ty": 5,
+          "nm": "Transform Spring",
+          "np": 5,
+          "mn": "Pseudo/DUIK 1d spring",
+          "ix": 1,
+          "en": 1,
+          "ef": [
+            {
+              "ty": 0,
+              "nm": "Elasticity",
+              "mn": "Pseudo/DUIK 1d spring-0001",
+              "ix": 1,
+              "v": { "a": 0, "k": 1, "ix": 1 }
+            },
+            {
+              "ty": 0,
+              "nm": "Damping",
+              "mn": "Pseudo/DUIK 1d spring-0002",
+              "ix": 2,
+              "v": { "a": 0, "k": 2, "ix": 2 }
+            },
+            {
+              "ty": 7,
+              "nm": "Bounce",
+              "mn": "Pseudo/DUIK 1d spring-0003",
+              "ix": 3,
+              "v": { "a": 0, "k": 0, "ix": 3 }
+            }
+          ]
+        }
+      ],
+      "ip": 141,
+      "op": 1041,
+      "st": 141,
+      "bm": 0
+    },
+    {
+      "ddd": 0,
+      "ind": 2,
+      "ty": 2,
+      "nm": "s770-pic5.png",
+      "cl": "png",
+      "refId": "image_1",
+      "sr": 1,
+      "ks": {
+        "o": { "a": 0, "k": 100, "ix": 11 },
+        "r": { "a": 0, "k": 0, "ix": 10 },
+        "p": {
+          "s": true,
+          "x": { "a": 0, "k": 181, "ix": 3 },
+          "y": {
+            "a": 1,
+            "k": [
+              {
+                "i": { "x": [0.833], "y": [0.833] },
+                "o": { "x": [0.167], "y": [0.167] },
+                "t": 138,
+                "s": [70]
+              },
+              { "t": 158, "s": [120] }
+            ],
+            "ix": 4,
+            "x": "var $bm_rt;\nvar damping, elasticity, speedLimit, bounce, tempsClefProx, tempsDebut, tempsDebut, temps, spring, spring;\nvar fx = effect('Transform Spring');\ndamping = fx(2).value;\nelasticity = fx(1).value;\nspeedLimit = 0.1;\nbounce = fx(3).value;\nvar result = value;\nif (numKeys > 1 && elasticity != 0 && nearestKey(time).index != 1 && length(velocity) <= speedLimit) {\n    tempsClefProx = nearestKey(time).time;\n    if (tempsClefProx <= time) {\n        tempsDebut = tempsClefProx;\n    } else {\n        tempsDebut = key($bm_sub(nearestKey(time).index, 1)).time;\n    }\n    temps = $bm_sub(time, tempsDebut);\n    spring = $bm_mul(velocityAtTime($bm_sub(tempsDebut, thisComp.frameDuration)), $bm_div($bm_mul($bm_div(0.15, elasticity), Math.sin($bm_mul($bm_mul($bm_mul(elasticity, temps), 2), Math.PI))), Math.exp($bm_mul(temps, damping))));\n    if (speedLimit > 0)\n        spring = $bm_mul(spring, $bm_sub(1, $bm_div(length(velocity), speedLimit)));\n    if (!bounce)\n        result = $bm_sum(valueAtTime(tempsDebut), spring);\n    if (bounce && valueAtTime(tempsDebut - thisComp.frameDuration) > valueAtTime(tempsDebut))\n        result = $bm_sum(valueAtTime(tempsDebut), Math.abs(spring));\n    if (bounce && valueAtTime(tempsDebut - thisComp.frameDuration) < valueAtTime(tempsDebut))\n        result = $bm_sub(valueAtTime(tempsDebut), Math.abs(spring));\n}\n$bm_rt = result;"
+          }
+        },
+        "a": { "a": 0, "k": [24, 30, 0], "ix": 1 },
+        "s": {
+          "a": 1,
+          "k": [
+            {
+              "i": { "x": [0, 0.395, 0.667], "y": [1, 1, 1] },
+              "o": { "x": [0.167, 0.167, 0.167], "y": [0, 0, 0] },
+              "t": 138,
+              "s": [0, 100, 100]
+            },
+            { "t": 158, "s": [100, 100, 100] }
+          ],
+          "ix": 6
+        }
+      },
+      "ao": 0,
+      "ef": [
+        {
+          "ty": 5,
+          "nm": "Transform Spring",
+          "np": 5,
+          "mn": "Pseudo/DUIK 1d spring",
+          "ix": 1,
+          "en": 1,
+          "ef": [
+            {
+              "ty": 0,
+              "nm": "Elasticity",
+              "mn": "Pseudo/DUIK 1d spring-0001",
+              "ix": 1,
+              "v": { "a": 0, "k": 1, "ix": 1 }
+            },
+            {
+              "ty": 0,
+              "nm": "Damping",
+              "mn": "Pseudo/DUIK 1d spring-0002",
+              "ix": 2,
+              "v": { "a": 0, "k": 2, "ix": 2 }
+            },
+            {
+              "ty": 7,
+              "nm": "Bounce",
+              "mn": "Pseudo/DUIK 1d spring-0003",
+              "ix": 3,
+              "v": { "a": 0, "k": 0, "ix": 3 }
+            }
+          ]
+        }
+      ],
+      "ip": 138,
+      "op": 1038,
+      "st": 138,
+      "bm": 0
+    },
+    {
+      "ddd": 0,
+      "ind": 3,
+      "ty": 2,
+      "nm": "mask",
+      "td": 1,
+      "refId": "image_2",
+      "sr": 1,
+      "ks": {
+        "o": { "a": 0, "k": 100, "ix": 11 },
+        "r": { "a": 0, "k": 0, "ix": 10 },
+        "p": { "a": 0, "k": [180, 180, 0], "ix": 2 },
+        "a": { "a": 0, "k": [96, 80, 0], "ix": 1 },
+        "s": { "a": 0, "k": [100, 100, 100], "ix": 6 }
+      },
+      "ao": 0,
+      "ip": 0,
+      "op": 900,
+      "st": 0,
+      "bm": 0
+    },
+    {
+      "ddd": 0,
+      "ind": 4,
+      "ty": 0,
+      "nm": "s773-chart",
+      "tt": 1,
+      "refId": "comp_0",
+      "sr": 1,
+      "ks": {
+        "o": { "a": 0, "k": 100, "ix": 11 },
+        "r": { "a": 0, "k": 0, "ix": 10 },
+        "p": { "a": 0, "k": [180, 180, 0], "ix": 2 },
+        "a": { "a": 0, "k": [180, 180, 0], "ix": 1 },
+        "s": { "a": 0, "k": [100, 100, 100], "ix": 6 }
+      },
+      "ao": 0,
+      "w": 360,
+      "h": 360,
+      "ip": 0,
+      "op": 900,
+      "st": 0,
+      "bm": 0
+    },
+    {
+      "ddd": 0,
+      "ind": 5,
+      "ty": 2,
+      "nm": "bg",
+      "refId": "image_2",
+      "sr": 1,
+      "ks": {
+        "o": { "a": 0, "k": 100, "ix": 11 },
+        "r": { "a": 0, "k": 0, "ix": 10 },
+        "p": { "a": 0, "k": [180, 260, 0], "ix": 2 },
+        "a": { "a": 0, "k": [96, 160, 0], "ix": 1 },
+        "s": {
+          "a": 1,
+          "k": [
+            {
+              "i": { "x": [0.289, 0.667, 0.667], "y": [1, 1, 1] },
+              "o": { "x": [0.551, 0.333, 0.333], "y": [0, 0, 0] },
+              "t": 0,
+              "s": [0, 10, 100]
+            },
+            {
+              "i": { "x": [0, 0.395, 0.667], "y": [1, 1, 1] },
+              "o": { "x": [0.947, 0.759, 0.333], "y": [0, 0, 0] },
+              "t": 30,
+              "s": [100, 10, 100]
+            },
+            { "t": 60, "s": [100, 100, 100] }
+          ],
+          "ix": 6
+        }
+      },
+      "ao": 0,
+      "ip": 0,
+      "op": 900,
+      "st": 0,
+      "bm": 0
+    }
+  ],
+  "markers": []
+}

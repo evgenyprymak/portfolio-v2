@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="32px" height="8px" viewBox="0 0 32 8" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <!-- Generator: Sketch 54.1 (76490) - https://sketchapp.com -->
+    <title>1</title>
+    <desc>Created with Sketch.</desc>
+    <defs>
+        <rect id="path-1" x="0" y="0" width="32" height="8" rx="1"></rect>
+    </defs>
+    <g id="Symbols" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+        <g id="Icon/777-question-1-Copy-6" transform="translate(-42.000000, -97.000000)">
+            <g id="Stuff/Icons/Coin/Front" transform="translate(42.000000, 97.000000)">
+                <g id="s1-coin" stroke-width="1">
+                    <mask id="mask-2" fill="white">
+                        <use xlink:href="#path-1"></use>
+                    </mask>
+                    <use id="Mask" fill="#D4A077" xlink:href="#path-1"></use>
+                    <rect id="Rectangle" fill="#BB8961" mask="url(#mask-2)" x="0" y="7" width="32" height="1"></rect>
+                </g>
+                <rect id="Rectangle" fill="#BB8961" x="18" y="5" width="2" height="3" rx="1"></rect>
+                <rect id="Rectangle-Copy" fill="#BB8961" x="22" y="4" width="2" height="4" rx="1"></rect>
+                <rect id="Rectangle-Copy-2" fill="#BB8961" x="26" y="2" width="2" height="6" rx="1"></rect>
+                <rect id="Rectangle-Copy-3" fill="#BB8961" x="30" y="0" width="2" height="8" rx="1"></rect>
+            </g>
+        </g>
+    </g>
+</svg>

@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="32px" height="8px" viewBox="0 0 32 8" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <!-- Generator: Sketch 54.1 (76490) - https://sketchapp.com -->
+    <title>1</title>
+    <desc>Created with Sketch.</desc>
+    <defs>
+        <rect id="path-1" x="0" y="0" width="32" height="8" rx="1"></rect>
+    </defs>
+    <g id="Symbols" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+        <g id="Stuff/Icons/Coin/Front---dark">
+            <g id="s1-coin">
+                <mask id="mask-2" fill="white">
+                    <use xlink:href="#path-1"></use>
+                </mask>
+                <use id="Mask" fill="#BB8961" xlink:href="#path-1"></use>
+                <rect id="Rectangle" fill="#9A6D48" mask="url(#mask-2)" x="0" y="7" width="32" height="1"></rect>
+            </g>
+            <path d="M19,5 C19.5522847,5 20,5.44771525 20,6 L20,7 C20,7.55228475 19.5522847,8 19,8 C18.4477153,8 18,7.55228475 18,7 L18,6 C18,5.44771525 18.4477153,5 19,5 Z M23,4 C23.5522847,4 24,4.44771525 24,5 L24,7 C24,7.55228475 23.5522847,8 23,8 C22.4477153,8 22,7.55228475 22,7 L22,5 C22,4.44771525 22.4477153,4 23,4 Z M27,2 C27.5522847,2 28,2.44771525 28,3 L28,7 C28,7.55228475 27.5522847,8 27,8 C26.4477153,8 26,7.55228475 26,7 L26,3 C26,2.44771525 26.4477153,2 27,2 Z M31,0 C31.5522847,-1.01453063e-16 32,0.44771525 32,1 L32,7 C32,7.55228475 31.5522847,8 31,8 C30.4477153,8 30,7.55228475 30,7 L30,1 C30,0.44771525 30.4477153,1.01453063e-16 31,0 Z" id="Combined-Shape" fill="#9A6D48"></path>
+        </g>
+    </g>
+</svg>

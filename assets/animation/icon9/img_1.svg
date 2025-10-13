@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="20px" height="20px" viewBox="0 0 20 20" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <!-- Generator: Sketch 54.1 (76490) - https://sketchapp.com -->
+    <title>Rectangle Copy 10</title>
+    <desc>Created with Sketch.</desc>
+    <defs>
+        <path d="M10,20 L12,13.9814453 L12,4.97379915e-13 L14,4.99822406e-13 L14,8 L18.726765,8 C19.2790497,8 19.726765,8.44771525 19.726765,9 C19.726765,9.25019167 19.6329798,9.4912948 19.4639191,9.67572463 L10,20 Z" id="path-1"></path>
+    </defs>
+    <g id="Symbols" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+        <g id="Icon/Step-9-Copy-2" transform="translate(-56.000000, -56.000000)">
+            <g id="Group" transform="translate(48.000000, 48.000000)">
+                <g id="Group-2" transform="translate(8.000000, 0.000000)">
+                    <g id="Rectangle-Copy-10" transform="translate(0.000000, 8.000000)">
+                        <path d="M14,8 L18.726765,8 C19.2790497,8 19.726765,8.44771525 19.726765,9 C19.726765,9.25019167 19.6329798,9.4912948 19.4639191,9.67572463 L10,20 L0.536080909,9.67572463 C0.162888502,9.26860564 0.190391431,8.63603827 0.597510421,8.26284586 C0.781940247,8.09378519 1.02304338,8 1.27322916,8 L6,8 L6,4.53637128e-13 L14,4.53637128e-13 L14,8 Z" id="Path" fill="#D4A077"></path>
+                        <mask id="mask-2" fill="white">
+                            <use xlink:href="#path-1"></use>
+                        </mask>
+                        <use id="Combined-Shape" fill="#BB8961" xlink:href="#path-1"></use>
+                    </g>
+                </g>
+            </g>
+        </g>
+    </g>
+</svg>

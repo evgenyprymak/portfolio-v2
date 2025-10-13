@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="32px" height="32px" viewBox="0 0 32 32" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <!-- Generator: Sketch 54.1 (76490) - https://sketchapp.com -->
+    <title>Group</title>
+    <desc>Created with Sketch.</desc>
+    <defs>
+        <circle id="path-1" cx="16" cy="16" r="16"></circle>
+    </defs>
+    <g id="Symbols" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+        <g id="Icon/Step-8-Copy" transform="translate(-52.000000, -80.000000)">
+            <g id="Group-5" transform="translate(44.000000, 58.000000)">
+                <g id="Group-2">
+                    <g id="Group" transform="translate(8.000000, 22.000000)">
+                        <g id="Combined-Shape">
+                            <mask id="mask-2" fill="white">
+                                <use xlink:href="#path-1"></use>
+                            </mask>
+                            <use id="Mask" fill="#BB8961" xlink:href="#path-1"></use>
+                            <path d="M10.0330006,11.7946714 C10.314207,8.59859077 13.002209,7 16.0003652,7 C18.9974875,7 21.6854896,8.59859077 21.9677298,11.7946714 C22.1135022,13.4637234 21.7619942,17.4117582 20.9824736,18.906859 C20.3022023,20.2147969 18.7152473,21.4698888 16.9577075,21.8992624 C16.1068514,22.0335792 15.8938789,22.0335792 15.0430229,21.8992624 C13.2844493,21.4698888 11.6974942,20.2147969 11.0172229,18.906859 C10.2377023,17.4117582 9.88516049,13.4637234 10.0330006,11.7946714 Z M27.9916285,32 L4.00833687,32 C3.47698051,20.016977 28.5240964,19.983035 27.9916285,32 Z" fill="#F8F8F8" mask="url(#mask-2)"></path>
+                        </g>
+                    </g>
+                </g>
+            </g>
+        </g>
+    </g>
+</svg>

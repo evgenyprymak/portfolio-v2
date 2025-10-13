@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="88px" height="64px" viewBox="0 0 88 64" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <!-- Generator: Sketch 54.1 (76490) - https://sketchapp.com -->
+    <title>Group 6</title>
+    <desc>Created with Sketch.</desc>
+    <g id="Symbols" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+        <g id="Icon/Step-8-Copy" transform="translate(-44.000000, -58.000000)">
+            <g id="Group-5" transform="translate(44.000000, 58.000000)">
+                <g id="Group-2">
+                    <g id="Group-3">
+                        <g id="Group-4">
+                            <g id="Group-6">
+                                <polygon id="Path" fill="#D8D8D8" points="84 8 88 8 88 64 0 64 5.45696821e-12 8 48 8 56 0 84 0"></polygon>
+                                <rect id="Rectangle" fill="#D4A077" x="0" y="8" width="48" height="56"></rect>
+                                <rect id="Rectangle" fill="#D8D8D8" x="0" y="8" width="48" height="4"></rect>
+                            </g>
+                        </g>
+                    </g>
+                </g>
+            </g>
+        </g>
+    </g>
+</svg>

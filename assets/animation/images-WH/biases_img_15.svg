@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="64px" height="80px" viewBox="0 0 64 80" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <!-- Generator: Sketch 53.2 (72643) - https://sketchapp.com -->
+    <title>Group</title>
+    <desc>Created with Sketch.</desc>
+    <g id="Page-1" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+        <g id="dsfff/1-copy-31" transform="translate(-58.000000, -38.000000)" fill-rule="nonzero">
+            <g id="Group" transform="translate(58.000000, 38.000000)">
+                <g id="Group-2" transform="translate(-0.000000, 0.000000)">
+                    <polygon id="Combined-Shape" fill="#004D94" points="32 24 64 52 2.84217094e-14 52"></polygon>
+                    <path d="M56,71 L8,71 C6.49970897,71 5.06086596,70.4040117 4,69.3431458 L1.65685425,67 C0.59598829,65.939134 2.13162821e-14,64.500291 2.13162821e-14,63 L2.80664381e-13,17 L32,-1.77635684e-13 L64,17 L64,63 C64,64.500291 63.4040117,65.939134 62.3431458,67 L60,69.3431458 C58.939134,70.4040117 57.500291,71 56,71 Z" id="Combined-Shape-Copy" fill="#0091FA" transform="translate(32.000000, 35.500000) scale(1, -1) translate(-32.000000, -35.500000) "></path>
+                    <path d="M0,72 L0,52 L31.0404374,68.975206 C31.6383994,69.3022158 32.3617254,69.3022152 32.9596868,68.9752045 L64,52 L64,75 L64,72 C64,73.500291 63.4040117,74.939134 62.3431458,76 L60,78.3431458 C58.939134,79.4040117 57.500291,80 56,80 L8,80 C6.49970897,80 5.06086596,79.4040117 4,78.3431458 L1.65685425,76 C0.59598829,74.939134 2.84217094e-14,73.500291 2.84217094e-14,72 Z" id="Combined-Shape" fill="#66BFFF"></path>
+                    <rect id="Rectangle-Copy-2" fill="#FFFFFF" x="12" y="34" width="24" height="4" rx="1"></rect>
+                    <rect id="Rectangle-Copy-3" fill="#FFFFFF" x="12" y="42" width="28" height="4" rx="1"></rect>
+                    <rect id="Rectangle-Copy-5" fill="#FFFFFF" x="44" y="34" width="8" height="4" rx="1"></rect>
+                    <rect id="Rectangle-Copy-6" fill="#FFFFFF" x="48" y="42" width="4" height="4" rx="1"></rect>
+                    <rect id="Rectangle-Copy-8" fill="#FFFFFF" x="12" y="50" width="16" height="4" rx="1"></rect>
+                    <rect id="Rectangle-Copy-7" fill="#FFFFFF" x="42" y="50" width="10" height="4" rx="1"></rect>
+                    <circle id="Oval" fill="#FFFFFF" cx="32.8605929" cy="18" r="10"></circle>
+                    <path d="M32.8440547,8 L32.8605929,8 C37.0154759,8 40.5785296,10.5339228 42.0887011,14.1407158 L32.8605929,18 L32.8440547,8 L32.8440547,8 Z" id="Path" fill="#99D3FD"></path>
+                    <path d="M41.8833753,13.6830869 C42.5097639,14.9899377 42.8605929,16.4539986 42.8605929,18 C42.8605929,19.4992042 42.5306815,20.9213535 41.9394978,22.1978086 L32.8605929,18 L41.8833753,13.6830869 L41.8833753,13.6830869 Z" id="Path" fill="#CCEAFF"></path>
+                </g>
+            </g>
+        </g>
+    </g>
+</svg>

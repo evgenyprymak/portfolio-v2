@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="20px" height="28px" viewBox="0 0 20 28" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <!-- Generator: Sketch 54.1 (76490) - https://sketchapp.com -->
+    <title>Rectangle</title>
+    <desc>Created with Sketch.</desc>
+    <g id="Symbols" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+        <g id="Icon/Step-9-Copy-2" transform="translate(-80.000000, -48.000000)">
+            <g id="Group" transform="translate(48.000000, 48.000000)">
+                <g id="Group-2" transform="translate(8.000000, 0.000000)">
+                    <g id="Rectangle" transform="translate(24.000000, 0.000000)">
+                        <path d="M14,16 L18.726765,16 C19.2790497,16 19.726765,16.4477153 19.726765,17 C19.726765,17.2501917 19.6329798,17.4912948 19.4639191,17.6757246 L10,28 L0.536080909,17.6757246 C0.162888502,17.2686056 0.190391431,16.6360383 0.597510421,16.2628459 C0.781940247,16.0937852 1.02304338,16 1.27322916,16 L6,16 L6,4.5494164e-13 L14,4.5494164e-13 L14,16 Z" id="Path" fill="#D4A077"></path>
+                        <path d="M10,28 L12,21.9814453 L12,1.45028913e-13 L14,1.45396307e-13 L14,16 L18.726765,16 C19.2790497,16 19.726765,16.4477153 19.726765,17 C19.726765,17.2501917 19.6329798,17.4912948 19.4639191,17.6757246 L10,28 Z" id="Combined-Shape" fill="#BB8961"></path>
+                    </g>
+                </g>
+            </g>
+        </g>
+    </g>
+</svg>

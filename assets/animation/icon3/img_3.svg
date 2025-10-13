@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="32px" height="32px" viewBox="0 0 32 32" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <!-- Generator: Sketch 54.1 (76490) - https://sketchapp.com -->
+    <title>1</title>
+    <desc>Created with Sketch.</desc>
+    <defs>
+        <circle id="path-1" cx="16" cy="16" r="10"></circle>
+        <circle id="path-3" cx="16" cy="16" r="8"></circle>
+    </defs>
+    <g id="Symbols" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+        <g id="Stuff/Icons/Coin/Top">
+            <circle id="Oval" fill="#BB8961" cx="16" cy="16" r="12"></circle>
+            <mask id="mask-2" fill="white">
+                <use xlink:href="#path-1"></use>
+            </mask>
+            <use id="Oval-Copy" fill="#9A6D48" fill-rule="nonzero" xlink:href="#path-1"></use>
+            <rect id="Rectangle" fill="#D4A077" mask="url(#mask-2)" x="16" y="6" width="10" height="20"></rect>
+            <mask id="mask-4" fill="white">
+                <use xlink:href="#path-3"></use>
+            </mask>
+            <use id="Oval-Copy-2" fill="#BB8961" xlink:href="#path-3"></use>
+            <rect id="Rectangle" fill="#D4A077" mask="url(#mask-4)" x="8" y="7" width="8" height="18"></rect>
+        </g>
+    </g>
+</svg>

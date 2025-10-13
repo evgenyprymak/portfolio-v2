@@ -1,0 +1,697 @@
+{
+  "v": "5.5.1",
+  "fr": 60,
+  "ip": 0,
+  "op": 180,
+  "w": 360,
+  "h": 360,
+  "nm": "s9-icon",
+  "ddd": 0,
+  "assets": [
+    {
+      "id": "image_0",
+      "w": 40,
+      "h": 56,
+      "u": "icon9/",
+      "p": "img_0.svg",
+      "e": 0
+    },
+    {
+      "id": "image_1",
+      "w": 40,
+      "h": 40,
+      "u": "icon9/",
+      "p": "img_1.svg",
+      "e": 0
+    },
+    {
+      "id": "image_2",
+      "w": 64,
+      "h": 16,
+      "u": "icon9/",
+      "p": "img_2.svg",
+      "e": 0
+    },
+    {
+      "id": "image_3",
+      "w": 64,
+      "h": 16,
+      "u": "icon9/",
+      "p": "img_3.svg",
+      "e": 0
+    },
+    {
+      "id": "image_4",
+      "w": 160,
+      "h": 90,
+      "u": "icon9/",
+      "p": "img_4.svg",
+      "e": 0
+    }
+  ],
+  "layers": [
+    {
+      "ddd": 0,
+      "ind": 1,
+      "ty": 2,
+      "nm": "s9-img3.png",
+      "cl": "png",
+      "refId": "image_0",
+      "sr": 1,
+      "ks": {
+        "o": { "a": 0, "k": 100, "ix": 11 },
+        "r": { "a": 0, "k": 0, "ix": 10 },
+        "p": {
+          "s": true,
+          "x": { "a": 0, "k": 180, "ix": 3 },
+          "y": {
+            "a": 1,
+            "k": [
+              {
+                "i": { "x": [0.833], "y": [0.833] },
+                "o": { "x": [0.167], "y": [0.167] },
+                "t": 30,
+                "s": [64]
+              },
+              { "t": 45, "s": [124] }
+            ],
+            "ix": 4,
+            "x": "var $bm_rt;\nvar damping, elasticity, speedLimit, bounce, tempsClefProx, tempsDebut, tempsDebut, temps, spring, spring;\nvar fx = effect('Transform Spring');\ndamping = fx(2).value;\nelasticity = fx(1).value;\nspeedLimit = 0.1;\nbounce = fx(3).value;\nvar result = value;\nif (numKeys > 1 && elasticity != 0 && nearestKey(time).index != 1 && length(velocity) <= speedLimit) {\n    tempsClefProx = nearestKey(time).time;\n    if (tempsClefProx <= time) {\n        tempsDebut = tempsClefProx;\n    } else {\n        tempsDebut = key($bm_sub(nearestKey(time).index, 1)).time;\n    }\n    temps = $bm_sub(time, tempsDebut);\n    spring = $bm_mul(velocityAtTime($bm_sub(tempsDebut, thisComp.frameDuration)), $bm_div($bm_mul($bm_div(0.15, elasticity), Math.sin($bm_mul($bm_mul($bm_mul(elasticity, temps), 2), Math.PI))), Math.exp($bm_mul(temps, damping))));\n    if (speedLimit > 0)\n        spring = $bm_mul(spring, $bm_sub(1, $bm_div(length(velocity), speedLimit)));\n    if (!bounce)\n        result = $bm_sum(valueAtTime(tempsDebut), spring);\n    if (bounce && valueAtTime(tempsDebut - thisComp.frameDuration) > valueAtTime(tempsDebut))\n        result = $bm_sum(valueAtTime(tempsDebut), Math.abs(spring));\n    if (bounce && valueAtTime(tempsDebut - thisComp.frameDuration) < valueAtTime(tempsDebut))\n        result = $bm_sub(valueAtTime(tempsDebut), Math.abs(spring));\n}\n$bm_rt = result;"
+          }
+        },
+        "a": { "a": 0, "k": [20, 28, 0], "ix": 1 },
+        "s": { "a": 0, "k": [100, 100, 100], "ix": 6 }
+      },
+      "ao": 0,
+      "ef": [
+        {
+          "ty": 5,
+          "nm": "Transform Spring",
+          "np": 5,
+          "mn": "Pseudo/DUIK 1d spring",
+          "ix": 1,
+          "en": 1,
+          "ef": [
+            {
+              "ty": 0,
+              "nm": "Elasticity",
+              "mn": "Pseudo/DUIK 1d spring-0001",
+              "ix": 1,
+              "v": { "a": 0, "k": 1, "ix": 1 }
+            },
+            {
+              "ty": 0,
+              "nm": "Damping",
+              "mn": "Pseudo/DUIK 1d spring-0002",
+              "ix": 2,
+              "v": { "a": 0, "k": 2, "ix": 2 }
+            },
+            {
+              "ty": 7,
+              "nm": "Bounce",
+              "mn": "Pseudo/DUIK 1d spring-0003",
+              "ix": 3,
+              "v": { "a": 0, "k": 0, "ix": 3 }
+            }
+          ]
+        }
+      ],
+      "ip": 30,
+      "op": 930,
+      "st": 30,
+      "bm": 0
+    },
+    {
+      "ddd": 0,
+      "ind": 2,
+      "ty": 2,
+      "nm": "s9-img2.png",
+      "cl": "png",
+      "refId": "image_1",
+      "sr": 1,
+      "ks": {
+        "o": { "a": 0, "k": 100, "ix": 11 },
+        "r": { "a": 0, "k": 0, "ix": 10 },
+        "p": {
+          "s": true,
+          "x": { "a": 0, "k": 228, "ix": 3 },
+          "y": {
+            "a": 1,
+            "k": [
+              {
+                "i": { "x": [0.833], "y": [0.833] },
+                "o": { "x": [0.167], "y": [0.167] },
+                "t": 45,
+                "s": [102]
+              },
+              { "t": 60, "s": [132] }
+            ],
+            "ix": 4,
+            "x": "var $bm_rt;\nvar damping, elasticity, speedLimit, bounce, tempsClefProx, tempsDebut, tempsDebut, temps, spring, spring;\nvar fx = effect('Transform Spring');\ndamping = fx(2).value;\nelasticity = fx(1).value;\nspeedLimit = 0.1;\nbounce = fx(3).value;\nvar result = value;\nif (numKeys > 1 && elasticity != 0 && nearestKey(time).index != 1 && length(velocity) <= speedLimit) {\n    tempsClefProx = nearestKey(time).time;\n    if (tempsClefProx <= time) {\n        tempsDebut = tempsClefProx;\n    } else {\n        tempsDebut = key($bm_sub(nearestKey(time).index, 1)).time;\n    }\n    temps = $bm_sub(time, tempsDebut);\n    spring = $bm_mul(velocityAtTime($bm_sub(tempsDebut, thisComp.frameDuration)), $bm_div($bm_mul($bm_div(0.15, elasticity), Math.sin($bm_mul($bm_mul($bm_mul(elasticity, temps), 2), Math.PI))), Math.exp($bm_mul(temps, damping))));\n    if (speedLimit > 0)\n        spring = $bm_mul(spring, $bm_sub(1, $bm_div(length(velocity), speedLimit)));\n    if (!bounce)\n        result = $bm_sum(valueAtTime(tempsDebut), spring);\n    if (bounce && valueAtTime(tempsDebut - thisComp.frameDuration) > valueAtTime(tempsDebut))\n        result = $bm_sum(valueAtTime(tempsDebut), Math.abs(spring));\n    if (bounce && valueAtTime(tempsDebut - thisComp.frameDuration) < valueAtTime(tempsDebut))\n        result = $bm_sub(valueAtTime(tempsDebut), Math.abs(spring));\n}\n$bm_rt = result;"
+          }
+        },
+        "a": { "a": 0, "k": [20, 20, 0], "ix": 1 },
+        "s": { "a": 0, "k": [100, 100, 100], "ix": 6 }
+      },
+      "ao": 0,
+      "ef": [
+        {
+          "ty": 5,
+          "nm": "Transform Spring",
+          "np": 5,
+          "mn": "Pseudo/DUIK 1d spring",
+          "ix": 1,
+          "en": 1,
+          "ef": [
+            {
+              "ty": 0,
+              "nm": "Elasticity",
+              "mn": "Pseudo/DUIK 1d spring-0001",
+              "ix": 1,
+              "v": { "a": 0, "k": 1, "ix": 1 }
+            },
+            {
+              "ty": 0,
+              "nm": "Damping",
+              "mn": "Pseudo/DUIK 1d spring-0002",
+              "ix": 2,
+              "v": { "a": 0, "k": 2, "ix": 2 }
+            },
+            {
+              "ty": 7,
+              "nm": "Bounce",
+              "mn": "Pseudo/DUIK 1d spring-0003",
+              "ix": 3,
+              "v": { "a": 0, "k": 0, "ix": 3 }
+            }
+          ]
+        }
+      ],
+      "ip": 45,
+      "op": 945,
+      "st": 45,
+      "bm": 0
+    },
+    {
+      "ddd": 0,
+      "ind": 3,
+      "ty": 2,
+      "nm": "s9-img2.png",
+      "cl": "png",
+      "refId": "image_1",
+      "sr": 1,
+      "ks": {
+        "o": { "a": 0, "k": 100, "ix": 11 },
+        "r": { "a": 0, "k": 0, "ix": 10 },
+        "p": {
+          "s": true,
+          "x": { "a": 0, "k": 132, "ix": 3 },
+          "y": {
+            "a": 1,
+            "k": [
+              {
+                "i": { "x": [0.833], "y": [0.833] },
+                "o": { "x": [0.167], "y": [0.167] },
+                "t": 15,
+                "s": [102]
+              },
+              { "t": 30, "s": [132] }
+            ],
+            "ix": 4,
+            "x": "var $bm_rt;\nvar damping, elasticity, speedLimit, bounce, tempsClefProx, tempsDebut, tempsDebut, temps, spring, spring;\nvar fx = effect('Transform Spring');\ndamping = fx(2).value;\nelasticity = fx(1).value;\nspeedLimit = 0.1;\nbounce = fx(3).value;\nvar result = value;\nif (numKeys > 1 && elasticity != 0 && nearestKey(time).index != 1 && length(velocity) <= speedLimit) {\n    tempsClefProx = nearestKey(time).time;\n    if (tempsClefProx <= time) {\n        tempsDebut = tempsClefProx;\n    } else {\n        tempsDebut = key($bm_sub(nearestKey(time).index, 1)).time;\n    }\n    temps = $bm_sub(time, tempsDebut);\n    spring = $bm_mul(velocityAtTime($bm_sub(tempsDebut, thisComp.frameDuration)), $bm_div($bm_mul($bm_div(0.15, elasticity), Math.sin($bm_mul($bm_mul($bm_mul(elasticity, temps), 2), Math.PI))), Math.exp($bm_mul(temps, damping))));\n    if (speedLimit > 0)\n        spring = $bm_mul(spring, $bm_sub(1, $bm_div(length(velocity), speedLimit)));\n    if (!bounce)\n        result = $bm_sum(valueAtTime(tempsDebut), spring);\n    if (bounce && valueAtTime(tempsDebut - thisComp.frameDuration) > valueAtTime(tempsDebut))\n        result = $bm_sum(valueAtTime(tempsDebut), Math.abs(spring));\n    if (bounce && valueAtTime(tempsDebut - thisComp.frameDuration) < valueAtTime(tempsDebut))\n        result = $bm_sub(valueAtTime(tempsDebut), Math.abs(spring));\n}\n$bm_rt = result;"
+          }
+        },
+        "a": { "a": 0, "k": [20, 20, 0], "ix": 1 },
+        "s": { "a": 0, "k": [100, 100, 100], "ix": 6 }
+      },
+      "ao": 0,
+      "ef": [
+        {
+          "ty": 5,
+          "nm": "Transform Spring",
+          "np": 5,
+          "mn": "Pseudo/DUIK 1d spring",
+          "ix": 1,
+          "en": 1,
+          "ef": [
+            {
+              "ty": 0,
+              "nm": "Elasticity",
+              "mn": "Pseudo/DUIK 1d spring-0001",
+              "ix": 1,
+              "v": { "a": 0, "k": 0.5, "ix": 1 }
+            },
+            {
+              "ty": 0,
+              "nm": "Damping",
+              "mn": "Pseudo/DUIK 1d spring-0002",
+              "ix": 2,
+              "v": { "a": 0, "k": 2, "ix": 2 }
+            },
+            {
+              "ty": 7,
+              "nm": "Bounce",
+              "mn": "Pseudo/DUIK 1d spring-0003",
+              "ix": 3,
+              "v": { "a": 0, "k": 0, "ix": 3 }
+            }
+          ]
+        }
+      ],
+      "ip": 15,
+      "op": 915,
+      "st": 15,
+      "bm": 0
+    },
+    {
+      "ddd": 0,
+      "ind": 4,
+      "ty": 2,
+      "nm": "s1-coin.png",
+      "cl": "png",
+      "refId": "image_2",
+      "sr": 1,
+      "ks": {
+        "o": { "a": 0, "k": 100, "ix": 11 },
+        "r": { "a": 0, "k": 0, "ix": 10 },
+        "p": { "a": 0, "k": [182, 206, 0], "ix": 2 },
+        "a": { "a": 0, "k": [32, 16, 0], "ix": 1 },
+        "s": {
+          "a": 1,
+          "k": [
+            {
+              "i": { "x": [0, 0.395, 0.667], "y": [1, 1, 1] },
+              "o": { "x": [0.167, 0.167, 0.167], "y": [0, 0, 0] },
+              "t": 20,
+              "s": [0, 100, 100]
+            },
+            { "t": 51, "s": [100, 100, 100] }
+          ],
+          "ix": 6
+        }
+      },
+      "ao": 0,
+      "ip": 20,
+      "op": 920,
+      "st": 20,
+      "bm": 0
+    },
+    {
+      "ddd": 0,
+      "ind": 5,
+      "ty": 2,
+      "nm": "s1-coin.png",
+      "cl": "png",
+      "refId": "image_2",
+      "sr": 1,
+      "ks": {
+        "o": { "a": 0, "k": 100, "ix": 11 },
+        "r": { "a": 0, "k": 0, "ix": 10 },
+        "p": { "a": 0, "k": [178, 222, 0], "ix": 2 },
+        "a": { "a": 0, "k": [32, 16, 0], "ix": 1 },
+        "s": {
+          "a": 1,
+          "k": [
+            {
+              "i": { "x": [0, 0.395, 0.667], "y": [1, 1, 1] },
+              "o": { "x": [0.167, 0.167, 0.167], "y": [0, 0, 0] },
+              "t": 15,
+              "s": [0, 100, 100]
+            },
+            { "t": 46, "s": [100, 100, 100] }
+          ],
+          "ix": 6
+        }
+      },
+      "ao": 0,
+      "ip": 15,
+      "op": 915,
+      "st": 15,
+      "bm": 0
+    },
+    {
+      "ddd": 0,
+      "ind": 6,
+      "ty": 2,
+      "nm": "s1-coin.png",
+      "cl": "png",
+      "refId": "image_2",
+      "sr": 1,
+      "ks": {
+        "o": { "a": 0, "k": 100, "ix": 11 },
+        "r": { "a": 0, "k": 0, "ix": 10 },
+        "p": { "a": 0, "k": [180, 238, 0], "ix": 2 },
+        "a": { "a": 0, "k": [32, 16, 0], "ix": 1 },
+        "s": {
+          "a": 1,
+          "k": [
+            {
+              "i": { "x": [0, 0.395, 0.667], "y": [1, 1, 1] },
+              "o": { "x": [0.167, 0.167, 0.167], "y": [0, 0, 0] },
+              "t": 10,
+              "s": [0, 100, 100]
+            },
+            { "t": 41, "s": [100, 100, 100] }
+          ],
+          "ix": 6
+        }
+      },
+      "ao": 0,
+      "ip": 10,
+      "op": 910,
+      "st": 10,
+      "bm": 0
+    },
+    {
+      "ddd": 0,
+      "ind": 7,
+      "ty": 2,
+      "nm": "s1-coin.png",
+      "cl": "png",
+      "refId": "image_2",
+      "sr": 1,
+      "ks": {
+        "o": { "a": 0, "k": 100, "ix": 11 },
+        "r": { "a": 0, "k": 0, "ix": 10 },
+        "p": { "a": 0, "k": [184, 254, 0], "ix": 2 },
+        "a": { "a": 0, "k": [32, 16, 0], "ix": 1 },
+        "s": {
+          "a": 1,
+          "k": [
+            {
+              "i": { "x": [0, 0.395, 0.667], "y": [1, 1, 1] },
+              "o": { "x": [0.167, 0.167, 0.167], "y": [0, 0, 0] },
+              "t": 5,
+              "s": [0, 100, 100]
+            },
+            { "t": 36, "s": [100, 100, 100] }
+          ],
+          "ix": 6
+        }
+      },
+      "ao": 0,
+      "ip": 5,
+      "op": 905,
+      "st": 5,
+      "bm": 0
+    },
+    {
+      "ddd": 0,
+      "ind": 8,
+      "ty": 2,
+      "nm": "s1-coin.png",
+      "cl": "png",
+      "refId": "image_2",
+      "sr": 1,
+      "ks": {
+        "o": { "a": 0, "k": 100, "ix": 11 },
+        "r": { "a": 0, "k": 0, "ix": 10 },
+        "p": { "a": 0, "k": [180, 270, 0], "ix": 2 },
+        "a": { "a": 0, "k": [32, 16, 0], "ix": 1 },
+        "s": {
+          "a": 1,
+          "k": [
+            {
+              "i": { "x": [0, 0.395, 0.667], "y": [1, 1, 1] },
+              "o": { "x": [0.167, 0.167, 0.167], "y": [0, 0, 0] },
+              "t": 0,
+              "s": [0, 100, 100]
+            },
+            { "t": 31, "s": [100, 100, 100] }
+          ],
+          "ix": 6
+        }
+      },
+      "ao": 0,
+      "ip": 0,
+      "op": 900,
+      "st": 0,
+      "bm": 0
+    },
+    {
+      "ddd": 0,
+      "ind": 9,
+      "ty": 2,
+      "nm": "s1-coin-dark.png",
+      "cl": "png",
+      "refId": "image_3",
+      "sr": 1,
+      "ks": {
+        "o": { "a": 0, "k": 100, "ix": 11 },
+        "r": { "a": 0, "k": 0, "ix": 10 },
+        "p": { "a": 0, "k": [230, 222, 0], "ix": 2 },
+        "a": { "a": 0, "k": [32, 16, 0], "ix": 1 },
+        "s": {
+          "a": 1,
+          "k": [
+            {
+              "i": { "x": [0, 0.395, 0.667], "y": [1, 1, 1] },
+              "o": { "x": [0.167, 0.167, 0.167], "y": [0, 0, 0] },
+              "t": 45,
+              "s": [0, 100, 100]
+            },
+            { "t": 76, "s": [100, 100, 100] }
+          ],
+          "ix": 6
+        }
+      },
+      "ao": 0,
+      "ip": 45,
+      "op": 945,
+      "st": 45,
+      "bm": 0
+    },
+    {
+      "ddd": 0,
+      "ind": 10,
+      "ty": 2,
+      "nm": "s1-coin-dark.png",
+      "cl": "png",
+      "refId": "image_3",
+      "sr": 1,
+      "ks": {
+        "o": { "a": 0, "k": 100, "ix": 11 },
+        "r": { "a": 0, "k": 0, "ix": 10 },
+        "p": { "a": 0, "k": [232, 238, 0], "ix": 2 },
+        "a": { "a": 0, "k": [32, 16, 0], "ix": 1 },
+        "s": {
+          "a": 1,
+          "k": [
+            {
+              "i": { "x": [0, 0.395, 0.667], "y": [1, 1, 1] },
+              "o": { "x": [0.167, 0.167, 0.167], "y": [0, 0, 0] },
+              "t": 38.334,
+              "s": [0, 100, 100]
+            },
+            { "t": 69.333984375, "s": [100, 100, 100] }
+          ],
+          "ix": 6
+        }
+      },
+      "ao": 0,
+      "ip": 38.333984375,
+      "op": 938.333984375,
+      "st": 38.333984375,
+      "bm": 0
+    },
+    {
+      "ddd": 0,
+      "ind": 11,
+      "ty": 2,
+      "nm": "s1-coin-dark.png",
+      "cl": "png",
+      "refId": "image_3",
+      "sr": 1,
+      "ks": {
+        "o": { "a": 0, "k": 100, "ix": 11 },
+        "r": { "a": 0, "k": 0, "ix": 10 },
+        "p": { "a": 0, "k": [236, 254, 0], "ix": 2 },
+        "a": { "a": 0, "k": [32, 16, 0], "ix": 1 },
+        "s": {
+          "a": 1,
+          "k": [
+            {
+              "i": { "x": [0, 0.395, 0.667], "y": [1, 1, 1] },
+              "o": { "x": [0.167, 0.167, 0.167], "y": [0, 0, 0] },
+              "t": 31.666,
+              "s": [0, 100, 100]
+            },
+            { "t": 62.666015625, "s": [100, 100, 100] }
+          ],
+          "ix": 6
+        }
+      },
+      "ao": 0,
+      "ip": 31.666015625,
+      "op": 931.666015625,
+      "st": 31.666015625,
+      "bm": 0
+    },
+    {
+      "ddd": 0,
+      "ind": 12,
+      "ty": 2,
+      "nm": "s1-coin-dark.png",
+      "cl": "png",
+      "refId": "image_3",
+      "sr": 1,
+      "ks": {
+        "o": { "a": 0, "k": 100, "ix": 11 },
+        "r": { "a": 0, "k": 0, "ix": 10 },
+        "p": { "a": 0, "k": [232, 270, 0], "ix": 2 },
+        "a": { "a": 0, "k": [32, 16, 0], "ix": 1 },
+        "s": {
+          "a": 1,
+          "k": [
+            {
+              "i": { "x": [0, 0.395, 0.667], "y": [1, 1, 1] },
+              "o": { "x": [0.167, 0.167, 0.167], "y": [0, 0, 0] },
+              "t": 25,
+              "s": [0, 100, 100]
+            },
+            { "t": 56, "s": [100, 100, 100] }
+          ],
+          "ix": 6
+        }
+      },
+      "ao": 0,
+      "ip": 25,
+      "op": 925,
+      "st": 25,
+      "bm": 0
+    },
+    {
+      "ddd": 0,
+      "ind": 13,
+      "ty": 2,
+      "nm": "s1-coin-dark.png",
+      "cl": "png",
+      "refId": "image_3",
+      "sr": 1,
+      "ks": {
+        "o": { "a": 0, "k": 100, "ix": 11 },
+        "r": { "a": 0, "k": 0, "ix": 10 },
+        "p": { "a": 0, "k": [128, 238, 0], "ix": 2 },
+        "a": { "a": 0, "k": [32, 16, 0], "ix": 1 },
+        "s": {
+          "a": 1,
+          "k": [
+            {
+              "i": { "x": [0, 0.395, 0.667], "y": [1, 1, 1] },
+              "o": { "x": [0.167, 0.167, 0.167], "y": [0, 0, 0] },
+              "t": 37,
+              "s": [0, 100, 100]
+            },
+            { "t": 68, "s": [100, 100, 100] }
+          ],
+          "ix": 6
+        }
+      },
+      "ao": 0,
+      "ip": 37,
+      "op": 937,
+      "st": 37,
+      "bm": 0
+    },
+    {
+      "ddd": 0,
+      "ind": 14,
+      "ty": 2,
+      "nm": "s1-coin-dark.png",
+      "cl": "png",
+      "refId": "image_3",
+      "sr": 1,
+      "ks": {
+        "o": { "a": 0, "k": 100, "ix": 11 },
+        "r": { "a": 0, "k": 0, "ix": 10 },
+        "p": { "a": 0, "k": [124, 254, 0], "ix": 2 },
+        "a": { "a": 0, "k": [32, 16, 0], "ix": 1 },
+        "s": {
+          "a": 1,
+          "k": [
+            {
+              "i": { "x": [0, 0.395, 0.667], "y": [1, 1, 1] },
+              "o": { "x": [0.167, 0.167, 0.167], "y": [0, 0, 0] },
+              "t": 27,
+              "s": [0, 100, 100]
+            },
+            { "t": 58, "s": [100, 100, 100] }
+          ],
+          "ix": 6
+        }
+      },
+      "ao": 0,
+      "ip": 27,
+      "op": 927,
+      "st": 27,
+      "bm": 0
+    },
+    {
+      "ddd": 0,
+      "ind": 15,
+      "ty": 2,
+      "nm": "s1-coin-dark.png",
+      "cl": "png",
+      "refId": "image_3",
+      "sr": 1,
+      "ks": {
+        "o": { "a": 0, "k": 100, "ix": 11 },
+        "r": { "a": 0, "k": 0, "ix": 10 },
+        "p": { "a": 0, "k": [126, 270, 0], "ix": 2 },
+        "a": { "a": 0, "k": [32, 16, 0], "ix": 1 },
+        "s": {
+          "a": 1,
+          "k": [
+            {
+              "i": { "x": [0, 0.395, 0.667], "y": [1, 1, 1] },
+              "o": { "x": [0.167, 0.167, 0.167], "y": [0, 0, 0] },
+              "t": 17,
+              "s": [0, 100, 100]
+            },
+            { "t": 48, "s": [100, 100, 100] }
+          ],
+          "ix": 6
+        }
+      },
+      "ao": 0,
+      "ip": 17,
+      "op": 917,
+      "st": 17,
+      "bm": 0
+    },
+    {
+      "ddd": 0,
+      "ind": 16,
+      "ty": 2,
+      "nm": "s9-img1.png",
+      "cl": "png",
+      "refId": "image_4",
+      "sr": 1,
+      "ks": {
+        "o": { "a": 0, "k": 100, "ix": 11 },
+        "r": { "a": 0, "k": 0, "ix": 10 },
+        "p": { "a": 0, "k": [180, 248, 0], "ix": 2 },
+        "a": { "a": 0, "k": [80, 90, 0], "ix": 1 },
+        "s": {
+          "a": 1,
+          "k": [
+            {
+              "i": { "x": [0, 0.395, 0.667], "y": [1, 1, 1] },
+              "o": { "x": [0.947, 0.759, 0.333], "y": [0, 0, 0] },
+              "t": 0,
+              "s": [100, 0, 100]
+            },
+            { "t": 30, "s": [100, 100, 100] }
+          ],
+          "ix": 6
+        }
+      },
+      "ao": 0,
+      "ip": 0,
+      "op": 900,
+      "st": 0,
+      "bm": 0
+    }
+  ],
+  "markers": []
+}

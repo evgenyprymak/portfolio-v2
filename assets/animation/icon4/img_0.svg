@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="21px" height="60px" viewBox="0 0 21 60" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <!-- Generator: Sketch 54.1 (76490) - https://sketchapp.com -->
+    <title>Group</title>
+    <desc>Created with Sketch.</desc>
+    <g id="Symbols" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+        <g id="Group" transform="translate(0.505366, -0.014349)">
+            <polygon id="Path-30" fill="#D4A077" points="10 2.46191183e-12 -2.64413979e-12 30 19.885928 30.5180995"></polygon>
+            <polygon id="Path-30-Copy" fill="#BB8961" transform="translate(15.000000, 15.000000) scale(-1, 1) translate(-15.000000, -15.000000) " points="20 0 10 30 20 30"></polygon>
+            <polygon id="Path-30-Copy-3" fill="#EEEEEE" transform="translate(5.000000, 45.000000) scale(1, -1) translate(-5.000000, -45.000000) " points="10 30 0 60 10 60"></polygon>
+            <polygon id="Path-30-Copy-2" fill="#C4C4C4" transform="translate(15.000000, 45.000000) scale(-1, -1) translate(-15.000000, -45.000000) " points="20 30 10 60 20 60"></polygon>
+        </g>
+    </g>
+</svg>
