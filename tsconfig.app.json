@@ -31,7 +31,12 @@
     ]
   },
   "include": [
-    "src",
-    "custom-elements.d.ts"
-, "generateImageProcedural.js"  ]
+  "src/main.tsx",
+    "src/App.tsx",
+    "src/MainPage.tsx",
+    "src/components/CanvasRippleCard.tsx",
+  "src/vite-env.d.ts",
+    "custom-elements.d.ts",
+    "generateImageProcedural.js"
+  ]
 }

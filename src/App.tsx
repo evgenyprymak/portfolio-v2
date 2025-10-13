@@ -1,39 +1,9 @@
-// @ts-ignore
-import React, { useEffect } from 'react';
-import { HashRouter as Router, Route, Routes, Navigate} from 'react-router-dom';
-import ScrollToTop from '../src/components/ScrollToTop';
-
+// Minimal App: render only MainPage (keeps the repo focused on the MainPage)
+import React from 'react';
 import MainPage from './MainPage';
-import ProjectDetails from './ProjectDetails';
-import ProjectDetailsDashboard from './ProjectDetailsDashboard';
-import ProjectDetailsProcedural from './ProjectDetailsProcedural';
-import ProjectDetailsOldWorks from './ProjectDetailsOldWorks';
-import ProjectDetailsCapital from './ProjectDetailsCapital';
-import ContactForm from './Email';
-import MainPage_old_v1 from './MainPage_old_v1';
 
-
-
-const App = () => {
-
-
-
-  return (
-    <Router>
-      <ScrollToTop />
-      <Routes>
-        <Route path="/" element={<MainPage />} />
-        <Route path="/old_v1" element={<MainPage_old_v1 />} />
-        <Route path="/project/1" element={<ProjectDetails />} />
-        <Route path="/project/2" element={<ProjectDetailsDashboard />} />
-        <Route path="/project/100" element={<ProjectDetailsProcedural />} />
-        <Route path="/project/99" element={<ProjectDetailsOldWorks />} />
-        <Route path="/project/8" element={<ProjectDetailsCapital />} />
-        <Route path="/contact" element={<ContactForm />} />
-        <Route path="*" element={<Navigate to="/" replace />} />
-      </Routes>
-    </Router>
-  );
+const App: React.FC = () => {
+  return <MainPage />;
 };
 
 export default App;
